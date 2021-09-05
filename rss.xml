@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ryan Ermita]]></title><description><![CDATA[Human | Software Engineer]]></description><link>https://ryanermita.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 05 Sep 2021 01:23:33 GMT</lastBuildDate><item><title><![CDATA[Takeaways from Google Technical Writing Course]]></title><description><![CDATA[For the past few days, I took the Google technical writing short course. This was suggested by our Head of Engineering at Uploan during our feedback session - as one of the things that I need to improve at given the kind of team I'm involved with and my current position the company. On this artcle I'll be sharing my takeaways from taking the Google technical writing course.]]></description><link>https://ryanermita.com/posts/takeaways-from-Google-technical-writing-course</link><guid isPermaLink="false">https://ryanermita.com/posts/takeaways-from-Google-technical-writing-course</guid><pubDate>Sun, 12 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://developers.google.com/tech-writing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Google Technical Writing Course&lt;/a&gt; consist of beginner-friendly &lt;a href=&quot;https://en.wikipedia.org/wiki/Technical_writing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;technical writing&lt;/a&gt; lessons and exercises provided by Google. This course is a good starting point for anyone who wants to &lt;a href=&quot;https://developers.google.com/tech-writing/overview&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;learn&lt;/a&gt; or &lt;a href=&quot;https://developers.google.com/tech-writing/for-instructors&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;teach&lt;/a&gt; technical writing. For learners, you can take this course for free and in a self-paced manner.&lt;/p&gt;
+&lt;p&gt;I took Google Technical Writing Course a week ago. It was a good refresher and it also made me realize my mistakes in my writing, which is a lot. I know I wont be good at technical writing instantly just by taking this course. Because just like any other skills, it will take a lot of practice and mistakes before we became good at it. But taking this course is a good start.&lt;/p&gt;
+&lt;p&gt;The following list identifies my takeaways from taking Google Technical Writing Course:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/tech-writing/one/active-voice&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Prefer active voice rather than passive voice&lt;/a&gt;. Active voice is more concise compared to passive voice. This can be done by using this pattern: 
+actor + verb + target&lt;/li&gt;
+&lt;li&gt;Adopt an editorial style guide. As defined at &lt;a href=&quot;https://developers.google.com/tech-writing/resources&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Doc Resources&lt;/a&gt; of Google Technical Writing Course: &lt;em&gt;An editorial style guide defines an editorial group’s guidelines for communication&lt;/em&gt;. Style guides promotes consistency, which creates a cohesive experience for the stakeholders (writers, peer reviewers, consumers) of the document. Google Technical Writing Course recommends: &lt;a href=&quot;https://developers.google.com/style&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Google developer documentation style guide&lt;/a&gt; and &lt;a href=&quot;https://docs.microsoft.com/en-us/style-guide/welcome/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Microsoft Writing Style Guide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Be consistent. As stated on the second bullet: &lt;em&gt;consistency creates a cohesive experience for the stakeholders (writers, peer reviewers, consumers) of the document&lt;/em&gt;. Among others, it can be achieved by using acronyms properly, focusing each sentence on a single idea, focusing each paragraph on a single topic, and keeping list in parallel.&lt;/li&gt;
+&lt;li&gt;Write with empathy. As discussed in &lt;a href=&quot;https://www.grammarly.com/blog/empathy-writing/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;3 Ways to Master the Power of Empathy&lt;/a&gt; by &lt;a href=&quot;https://www.grammarly.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Grammarly&lt;/a&gt;: &lt;em&gt;When you write with empathy, you’re putting yourself in the place of the person you’re communicating with, and that helps your writing resonate with them&lt;/em&gt;. By knowing your audience and thinking like them, you can write in a way that are convenient for them. Among others, this can be achieved by using using simple terms and examples that your target audience are familiar with.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Keep your paragraph simple and short. As stated in Paragraph section of Google Technical Writing Course: Readers generally welcome paragraphs containing three to five sentences, but will avoid paragraphs containing more than about seven sentences. Also according to the course, a good paragraphs answer these following questions: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What are you trying to tell your reader? &lt;/li&gt;
+&lt;li&gt;Why is it important for the reader to know this? &lt;/li&gt;
+&lt;li&gt;How should the reader use this.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Use bullet and numbered list appropriately. According to Google Technical Writing Course: &lt;em&gt;Bulleted list for unordered items and use a numbered list for ordered items&lt;/em&gt;. At most cases, we use numbered list for sets of instructions or procedures. Hence, use  imperative verbs at the start of each numbered list item.&lt;/li&gt;
+&lt;li&gt;State the document’s prerequisites, scope, and limitations of the at the start of the document. This can help both the readers and the writers of the document. It sets the reader’s expectations regarding the document. It help the writers to have a clear view on the direction or guidance for writing the document.&lt;/li&gt;
+&lt;li&gt;Plan the document. Structuring the document can help visualize the flow of information and discussion. The course provides a &lt;a href=&quot;https://developers.google.com/tech-writing/two/large-docs#outline_a_document&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;good practical approach for planning your document&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aside from the items listed above. There’s much more you can learn from taking Google Technical Writing Course. I highly recommend this course to anyone.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;In technical writing our goal as a writer is to write technical documents in a manner that can be easily understood. Google Technical Writing Course comprises of concise lessons and examples which can guide us attain that goal. The course can be taken for free and in a self-paced manner. Taking this course does not mean we’ll be great technical writer instantly. Just like any other skills, it takes time and effort to be good at it. But this course is a good starting point.&lt;/p&gt;
+&lt;h2 id=&quot;further-reading&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#further-reading&quot; aria-label=&quot;further reading permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Further Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/dimmajuliet16/the-art-of-technical-writing-1ghj&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The Art of Technical Writing by Chidimmajuliet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/iriskatastic/writing-technical-articles-tips-for-programmers-29gp&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Writing technical articles: tips for programmers by Iren Korkishk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/BolajiAyodeji/awesome-technical-writing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Awesome Technical Writing by Bolaji Ayodeji&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/vaibhavkhulbe/writing-a-technical-article-blog-101-2pjm&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Writing a technical article/blog 101 by Vaibhav Khulbe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/rozenmd/learning-to-blog-lessons-from-working-for-a-large-blogging-company-17df&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Learning to blog: lessons from working for a large blogging company by Max Rozen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/alainakafkes/tackling-technical-writing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Tackling Technical Writing by Alaina Kafkes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Creating My Own Blog Using GatsbyJS]]></title><description><![CDATA[On my journey of looking for a tool to create my own blog site that I can easily manage and to learn something new. I stumble upon GatsbyJS, an open-source static website generator (SSG) that is based on the frontend development framework React and makes use of Webpack and GraphQL technology. It can be used to build static sites that are progressive web apps, follow the latest web standards, and optimized for speed and security. On this article I'll be sharing the steps and aha-moments during my exploring of GatsbyJS while creating my own blog site.]]></description><link>https://ryanermita.com/posts/creating-my-own-blog-using-gatsbyjs</link><guid isPermaLink="false">https://ryanermita.com/posts/creating-my-own-blog-using-gatsbyjs</guid><pubDate>Mon, 18 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been writing my articles in &lt;a href=&quot;https://medium.com/@ryanermita&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Medium&lt;/a&gt; and &lt;a href=&quot;https://ryanermita.wordpress.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Wordpress&lt;/a&gt;. But last week, I decided to create my own blog and eventually move my articles from Medium and Wordpress on it. I look over the internet on what tools I can use for my blog. I came across a &lt;a href=&quot;https://wordpress.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;self-hosted Wordress&lt;/a&gt;, &lt;a href=&quot;https://ghost.org/docs/concepts/hosting/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ghost&lt;/a&gt;, &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Jekyll&lt;/a&gt;, &lt;a href=&quot;https://www.gatsbyjs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GatsbyJS&lt;/a&gt;, &lt;a href=&quot;https://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Pelican&lt;/a&gt;, and the likes. For the self-hosted Wordpress and Ghost, I need to pay for a hosting site, which is problem because I don’t have money for that.
+So I narrow my options to use a &lt;a href=&quot;https://dev.to/integridsolutions/best-static-site-generator-to-use-in-2020-4kjk&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;static site generators&lt;/a&gt; and use &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Github&lt;/a&gt; as hosting using its &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Github Pages&lt;/a&gt; feature. &lt;/p&gt;
+&lt;p&gt;So now, I have 3 options for my static site generator. Jekyll, GatsbyJS, and Pelican. They are all amazing tools and can give what I want to achieved. So the deciding factor for me is the programming language that I’ll be using. For Jekyll I need to use &lt;a href=&quot;https://www.ruby-lang.org/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ruby&lt;/a&gt;, &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;javascript&lt;/a&gt; for GatsbyJS, and &lt;a href=&quot;https://www.python.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python&lt;/a&gt; for Pelican. I’m already comfortable with ruby and python.
+Javascript specifically using &lt;a href=&quot;https://reactjs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ReactJS&lt;/a&gt; is not really my strong suit, so I went to use GatsbyJS to challenge my self and to be more familiar with javascript specially ReactJS.&lt;/p&gt;
+&lt;p&gt;So for this weekend, my goals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;explore and learn GatsbyJS, enough to create my own blog. &lt;/li&gt;
+&lt;li&gt;deploy my static site in Github and use Github Pages to publish my site publicly.&lt;/li&gt;
+&lt;li&gt;Configure github pages to use my own domain.&lt;/li&gt;
+&lt;li&gt;move some of my contents from Medium and Wordpress to my newly created blog.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;exploring-gatsbyjs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#exploring-gatsbyjs&quot; aria-label=&quot;exploring gatsbyjs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Exploring GatsbyJS&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gatsby is a blazing fast modern site generator for React. - &lt;a href=&quot;https://www.gatsbyjs.org/docs/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.gatsbyjs.org/docs/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So how GatbsyJS works? basically GastsbyJS use &lt;a href=&quot;https://www.gatsbyjs.org/tutorial/part-five/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;source plugins&lt;/a&gt; such as the items below to retrieve data to feed on the generated site. You can even &lt;a href=&quot;https://www.gatsbyjs.org/docs/creating-a-source-plugin/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;create your own source plugin&lt;/a&gt; to suit your needs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-source-filesystem/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-source-filesystem&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-source-wordpress/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-source-wordpress&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-source-pg/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-source-pg&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-source-mysql/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-source-mysql&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;GatsbyJS with the help of source plugins build the data in a way that &lt;a href=&quot;https://graphql.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GraphQL&lt;/a&gt; can use it for data filtering and presentational purposes like blogs posts, products list or viewing, and the likes. This presentational layer consist of core web technologies, like HTML, CSS, and Javascript(ReactJS). &lt;/p&gt;
+&lt;p&gt;When you’re done customizing your site: setup the data source and presentational layer, you can create a production build and deploy it to your hosting service like: &lt;a href=&quot;https://www.gatsbyjs.org/docs/deploying-to-aws-amplify/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;AWS&lt;/a&gt;, &lt;a href=&quot;https://www.gatsbyjs.org/docs/deploying-to-netlify/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Netlify&lt;/a&gt;, and &lt;a href=&quot;https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Github Pages&lt;/a&gt;. That’s it!&lt;/p&gt;
+&lt;h2 id=&quot;creating-my-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#creating-my-blog&quot; aria-label=&quot;creating my blog permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Creating my Blog&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;I install GatsbyJS cli on my system.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generate a new GatsbyJS project, I use a starter plugin for this. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby new gatsby-starter-julia https://github.com/niklasmtj/gatsby-starter-julia&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Using a &lt;a href=&quot;https://www.gatsbyjs.org/starters/?v=2&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;starter plugins&lt;/a&gt; makes it more convenient to create sites using GatsbyJS. Aside from being very simple and minimal, the starter plugin I use contains these plugins among the others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-source-filesystem/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-source-filesystem&lt;/code&gt;&lt;/a&gt; - this makes it possible to retrieve data from filesystem specially for &lt;a href=&quot;https://www.markdownguide.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;markdown&lt;/a&gt; content.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-plugin-react-helmet&lt;/code&gt;&lt;/a&gt; - for managing my site header tags, useful for adding metadata to help with &lt;a href=&quot;https://en.wikipedia.org/wiki/Search_engine_optimization&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;SEO&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-plugin-offline/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-plugin-offline&lt;/code&gt;&lt;/a&gt; - make my site available offline, &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PWA&lt;/a&gt; for the win!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; 3. Explore the directories and files to customize some of the UI components. The generated source directory is very organize and easy to follow. The directory structure of the source directory looks like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;src/
+  components/
+  content/
+  images/
+  pages/
+  templates/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;components&lt;/code&gt; consist of reusable components. We are using ReactJS, creating reusable components is the de facto here.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;content&lt;/code&gt; consist of the markdown files, each markdown file corresponds to a blog post. &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;images&lt;/code&gt;, yes you guess it right. for image files.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pages&lt;/code&gt; consist of javascript files, each javascript file corresponds to a page on the generated site. The pages are automatically accessible via site url with this format: &lt;code class=&quot;language-text&quot;&gt;https://yoursite.com/&amp;lt;page-file-name-without-js-extension&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;templates&lt;/code&gt; consist of resuable templates, like blog post template.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; 4. Creating a content. I’m using markdown files for my blog content. All markdown files resides on &lt;code class=&quot;language-text&quot;&gt;src/content/&lt;/code&gt; directory. Writing markdown content is very simple, you can use this site as markdown syntax reference: &lt;a href=&quot;https://www.markdownguide.org/basic-syntax/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Markdown Guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  One important thing to remember is to add metadata on your markdown files. These metadata can be included on your markdown files using &lt;a href=&quot;https://jekyllrb.com/docs/front-matter/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;frontmatter&lt;/code&gt;&lt;/a&gt;, denoted by the triple dashes at the start and end of the block. This metadata is required as it is used by GraphQL for querying our content. We use the queried data for presentational purposes: displaying the blog content or listing the blog posts for example. &lt;/p&gt;
+&lt;p&gt;  The code below is an example of a markdown content with metadata inside the &lt;code class=&quot;language-text&quot;&gt;frontmatter&lt;/code&gt; code block at the top of the file.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
+title: &quot;Creating My Own Blog Using GatsbyJS&quot;
+date: &quot;2020-05-18&quot; 
+draft: true
+path: &quot;/software-engineering-journal/creating-my-own-blog-using-gatsbyjs&quot;
+---
+
+your blog post content and use markdown syntax if needed.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Generate a production build code. Running the command below will generate production ready codebase inside the &lt;code class=&quot;language-text&quot;&gt;public&lt;/code&gt; directory.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby build&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;Deploy production codebase to github pages. As a requirement, we need to install first the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; module by using the command below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;yarn add gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;include the deploy script on &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; so we dont need to type a long command just to deploy our blog. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  &quot;scripts&quot;: {
+    ...
+    &quot;deploy&quot;: &quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&quot;
+  },&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Run &lt;code class=&quot;language-text&quot;&gt;yarn run deploy&lt;/code&gt; and that’s it. Given that our repo is properly configured. We can view our site on this url: &lt;code class=&quot;language-text&quot;&gt;&amp;lt;username&gt;.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Configuring github pages to use a custom domain deserves its own post. To be posted soon!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Happy coding!&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fix Liquibase Duplicate Key Constraints]]></title><description><![CDATA[Got stuck on a problem during our deployment. The issue was about the database constraint exception that was raised by the Database (Postgre) - duplicate key constraint. This article will discuss how we solved the issue.]]></description><link>https://ryanermita.com/posts/fix-liquibase-duplicate-key-constaints</link><guid isPermaLink="false">https://ryanermita.com/posts/fix-liquibase-duplicate-key-constaints</guid><pubDate>Tue, 21 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;During the production deployment of one of our services, we encountered a database error when running our &lt;a href=&quot;https://www.liquibase.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;liquibase&lt;/a&gt; migration. As additional information, the service that we’re trying to deploy already have an initial set of data. The error we encountered is this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;ERROR:  duplicate key violates unique constraint&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This error happens because liquibase assumes that we’re migrating a fresh set of data, so it starts the primary key sequence at 1. &lt;a href=&quot;https://stackoverflow.com/a/21639138&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;This can be solved by setting the primary key sequence at the right location&lt;/a&gt;. Which can be done by running this query on your database console.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;SELECT&lt;/span&gt; setval&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;primary_id_seq&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;MAX&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will set the primary key sequence to the next sequence which will prevent the error that we encountered. Ideally, when migrating with &lt;a href=&quot;https://www.liquibase.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Liquibase&lt;/a&gt; on a services that has initial data, we should include the update key sequence query on our migration script.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why use TEXT over VARCHAR(n)]]></title><description><![CDATA[I encountered an issue with VARCHAR(n) regarding the character limit and this experience makes me think of the best way to solved it. It can be easily solved by increasing the N on the VARCHAR(N) field, but I went to another route by changing the field from VARCHAR(n) to TEXT. This article will explain the rationale behind that solution.]]></description><link>https://ryanermita.com/posts/why-use-text-over-varchar-n</link><guid isPermaLink="false">https://ryanermita.com/posts/why-use-text-over-varchar-n</guid><pubDate>Mon, 13 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I got an error earlier regarding exceeding the character length limit in a &lt;code class=&quot;language-text&quot;&gt;varchar(n)&lt;/code&gt; column. This issue raised some questions; should we just increased the number of character limit for the &lt;code class=&quot;language-text&quot;&gt;varchar(n)&lt;/code&gt; or convert the column type to &lt;code class=&quot;language-text&quot;&gt;text&lt;/code&gt;? When should we use &lt;code class=&quot;language-text&quot;&gt;varchar(n)&lt;/code&gt; over &lt;code class=&quot;language-text&quot;&gt;text&lt;/code&gt; and vice-versa?&lt;/p&gt;
+&lt;p&gt;based on this &lt;a href=&quot;https://www.depesz.com/2010/03/02/charx-vs-varcharx-vs-varchar-vs-text/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;article&lt;/a&gt;, &lt;code class=&quot;language-text&quot;&gt;varchar(n)&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;text&lt;/code&gt; are saved in the same structure underneath, which is &lt;code class=&quot;language-text&quot;&gt;varlena&lt;/code&gt;, a &lt;code class=&quot;language-text&quot;&gt;C&lt;/code&gt; data structure. The difference is that &lt;code class=&quot;language-text&quot;&gt;varchar(n)&lt;/code&gt; has a built-in character length limit which is &lt;code class=&quot;language-text&quot;&gt;n&lt;/code&gt; . Also, based on the article, changing the &lt;code class=&quot;language-text&quot;&gt;n&lt;/code&gt; in a &lt;code class=&quot;language-text&quot;&gt;varchar(n)&lt;/code&gt; column in a live environment is very painful because it will cause DB locks that will result to system downtime. Using &lt;code class=&quot;language-text&quot;&gt;text&lt;/code&gt; is preferred as it has unlimited character length and if we need to add character length limit restriction it can be done by DB functions and changing those DB functions wont cause DB locks and system downtime. It that sense &lt;code class=&quot;language-text&quot;&gt;text&lt;/code&gt; is more manageable and flexible.&lt;/p&gt;
+&lt;p&gt;In my case, changing my column type to &lt;code class=&quot;language-text&quot;&gt;text&lt;/code&gt; is the more applicable solution as I don’t know how much data my column will hold. I should’ve thought of this before I built my DB tables. Well, we’re not perfect and we’ll learn/relearn better practices because of this kind of mistakes.&lt;/p&gt;
+&lt;p&gt;I’m grateful to one of our DevOps who give me this &lt;a href=&quot;https://www.depesz.com/2010/03/02/charx-vs-varcharx-vs-varchar-vs-text/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;article&lt;/a&gt;: &lt;em&gt;thumbsup&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Learning RabbitMQ]]></title><description><![CDATA[We are on the process on converting our software architecture to Microservices and one way to communicate on each of these microservices is by using a message broker. So, a few weeks ago, we did an R&D about RabbitMQ. This article will detail what we learned about RabbitMQ.]]></description><link>https://ryanermita.com/posts/learning-rabbitmq</link><guid isPermaLink="false">https://ryanermita.com/posts/learning-rabbitmq</guid><pubDate>Fri, 26 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We are on the process on converting our software architecture to &lt;a href=&quot;https://microservices.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Microservices&lt;/a&gt; and one way to communicate on each of these microservices is by using a message broker. So, a few weeks ago, we did an R&amp;#x26;D about &lt;a href=&quot;https://www.rabbitmq.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ&lt;/a&gt;. Our goal was to understand what is RabbitMQ, how does it work, and finally figure out how can we implement RabbitMQ on our microservices. We’re moving to Microservices architecture to make our system more scalable, among other reasons. On our previous architecture, we’re using Redis as a message broker. &lt;a href=&quot;https://redis.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Redis&lt;/a&gt; is easy to set up, use and deploy but based on what I read, RabbitMQ is the way to go for more scalable software. Other than the scalability issues, Redis has these following problems as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Message_broker&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;message broker&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Does not support &lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;TLS&lt;/a&gt; by default. In Redis, securing messages and connection can be done by &lt;a href=&quot;http://ecomputernotes.com/computernetworkingnotes/communication-networks/tunneling&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;tunneling strategies&lt;/a&gt;. Redis recommend &lt;a href=&quot;http://www.tarsnap.com/spiped.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Spiped&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Only support basic message queuing and routing.&lt;/li&gt;
+&lt;li&gt;High percentage of message loss when Redis, publisher or consumer crashes.&lt;/li&gt;
+&lt;li&gt;High latency in dealing with large messages. Redis is better suited for small messages.&lt;/li&gt;
+&lt;li&gt;Redis was built with different intention, in-memory key-value database, and not for being a message broker.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We’re hoping that by implementing RabbitMQ on our Microservices architecture we could solved and prevent these problems.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-rabbitmq&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-rabbitmq&quot; aria-label=&quot;what is rabbitmq permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is RabbitMQ&lt;/h2&gt;
+&lt;p&gt;RabbitMQ is a message broker that originally implements the &lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Advance Message Queuing Protocol (AMQP)&lt;/a&gt;, but now it supports different messaging protocol via plugins. AMQP is an open standard for passing business messages between applications or organizations. AMQP standards was designed with the following main characteristics: Security, Reliability, Interoperability, Standard, Open. So how does RabbitMQ implement this characteristics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Security — support authentication, authorization, &lt;a href=&quot;https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;LDAP&lt;/a&gt;, and TLS via RabbitMQ plugins.&lt;/li&gt;
+&lt;li&gt;Reliability — &lt;a href=&quot;https://www.rabbitmq.com/confirms.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;confirms&lt;/a&gt; the message was successfully delivered to the message broker and confirms that the message was successfully processed by the consumer. RabbitMQ also have a builtin &lt;a href=&quot;https://www.rabbitmq.com/clustering.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;clustering feature&lt;/a&gt; that results to high availability, and scalability. There’s also an option to make your &lt;a href=&quot;https://www.rabbitmq.com/persistence-conf.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;data persistent&lt;/a&gt; so the message wont be lost in case the broker quits or crashes.&lt;/li&gt;
+&lt;li&gt;Interoperability — message is transfer as stream of bytes so any clients can operate on it. RabbitMQ supports a lot of &lt;a href=&quot;https://www.rabbitmq.com/devtools.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;client libraries and and dev tools&lt;/a&gt;, in different programming languages.&lt;/li&gt;
+&lt;li&gt;Open and Standard — aside from following the open standards of AMQP, &lt;a href=&quot;https://github.com/rabbitmq&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ is open source&lt;/a&gt; and anyone can contribute to make it better.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rabbitmq-architecture&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rabbitmq-architecture&quot; aria-label=&quot;rabbitmq architecture permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RabbitMQ Architecture&lt;/h2&gt;
+&lt;p&gt;First, lets see how we implement Redis as a message broker, it follows this process:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../images/redis-implementation.png&quot; alt=&quot;Redis Implimentation&quot;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An application publish a message to the message broker, which is in this case, Redis. The message was directly pushed to the queue.&lt;/li&gt;
+&lt;li&gt;The message is stored in a queue waiting to be consumed by a consumer from the same or different application.&lt;/li&gt;
+&lt;li&gt;A consumer consumes the message from the queue. The moment the message was consumed, it is deleted from the queue. Take note that on this part, the consumers was the one whose retrieving the message from the queue.&lt;/li&gt;
+&lt;li&gt;If the consumer fails to process the message, the consumer will push the message to the queue and the process will repeat from step 2.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This process is very simple and straightforward but, it is fragile, not flexible, and hard to scale. It wont be able to handle these cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How can I make sure the message was successfully published to the message broker?&lt;/li&gt;
+&lt;li&gt;What if Redis crashes? There’s a high possibility that the messages on route to the queue will be gone and there’s no available message broker to handle the incoming and outgoing messages.&lt;/li&gt;
+&lt;li&gt;What if the consumer crashes the time it consumed a message from the queue. The message will not be re-queued.&lt;/li&gt;
+&lt;li&gt;What if I want to publish the message to more than one queue or to the queues that met a set of criteria? For this to be possible, We need to manually modify our code base.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Those cases above can be easily solved by RabbitMQ and its not that hard to implement. But first, lets see how RabbitMQ message broker works:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../images/rabbitmq-implementation.png&quot; alt=&quot;RabbitMQ Implimentation&quot;&gt;&lt;/p&gt;
+&lt;p&gt;1 .The application publish a message to the message broker, in this case, RabbitMQ. The message was pushed to an Exchange instead of a queue.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;The Exchange will route the message to the queue or queues that is bound to the Exchange.&lt;/li&gt;
+&lt;li&gt;The RabbitMQ message broker can notify the publisher if the message was successfully routed to the queue or queues and if it fails to route the message, the Exchange can notify the publisher that the message was unable to route. On this failed scenario, the publisher has an option to republish the message or not.&lt;/li&gt;
+&lt;li&gt;The message is stored in a queue waiting for an active consumer, if there are any active consumer, the message broker delivers the message from the queue to the active consumer.&lt;/li&gt;
+&lt;li&gt;A consumer consumes the message sent by the message broker from the queue. The consumer can automatically or manually send an acknowledgment to message broker that the message was successfully processed and the message can be safely remove from the queue.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is the high level approach and architecture of RabbitMQ message broker. Compared with Redis as message broker. RabbitMQ have an additional component, the Exchange that routes the message to the queue or queues. Also, RabbitMQ provides a mechanism that is essential to data safety. We can guarantee that the message was successfully routed to the queue or queues else we have an option to republish the message, and we can guarantee that the message was successfully processed by the consumer else we can re-queue the message so it can be consumed by other consumer. By understanding this approach and architecture we can conclude that RabbitMQ is not just simple but also a robust message broker.&lt;/p&gt;
+&lt;h2 id=&quot;code-examples&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-examples&quot; aria-label=&quot;code examples permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Code Examples&lt;/h2&gt;
+&lt;p&gt;These code examples is originally came from the RabbitMQ tutorial, I just did some modification so we can create a robust application using RabbitMQ. Also, these codes are written using &lt;a href=&quot;https://pika.readthedocs.io/en/stable/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python Pika RabbitMQ Client&lt;/a&gt;. We will dissect this codes line by line to have better understanding how RabbitMQ works.&lt;/p&gt;
+&lt;h3 id=&quot;publisher-example&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#publisher-example&quot; aria-label=&quot;publisher example permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Publisher Example&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import pika
+import sys
+
+connection = pika.BlockingConnection(pika.ConnectionParameters(&apos;localhost&apos;))
+channel = connection.channel()
+
+channel.exchange_declare(exchange=&apos;direct_exchange&apos;, exchange_type=&apos;direct&apos;)
+channel.queue_declare(queue=&apos;direct_queue&apos;, durable=True)
+channel.queue_bind(exchange=&apos;direct_exchange&apos;, queue=&quot;direct_queue&quot;, routing_key=&quot;direct.routing.key&quot;)
+
+message = &quot; &quot;.join(sys.argv[1:]) or &quot;Hello World!&quot;
+
+channel.confirm_delivery()
+try:
+    channel.basic_publish(exchange=&apos;direct_exchange&apos;, routing_key=&apos;direct.routing.key&apos;,
+                          body=message, properties=pika.BasicProperties(delivery_mode=2)
+                          )
+
+    print(&quot;Sent %r&quot; % message)
+except pika.exceptions.UnroutableError:
+    print(&quot;Failed to send message %r&quot; % message)
+connection.close()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;connection = pika.BlockingConnection(pika.ConnectionParameters(‘localhost’)) &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After importing the required packages on line1–2. Line 4, We create a RabbitMQ connection instance, this connection uses &lt;a href=&quot;https://en.wikipedia.org/wiki/Transmission_Control_Protocol&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;TCP&lt;/a&gt; as protocol. TCP protocol deals only with packets (bits of data) and enable the connection between two host so that they can exchange data. Also TCP guarantee that the message are delivered in order in which they were sent.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel = connection.channel()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 5, we create a &lt;a href=&quot;https://www.rabbitmq.com/channels.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;channel&lt;/a&gt;, all the client operations happens on a channel. We can have more than one channel in one connection. The reason behind this is that: Some applications need multiple logical connections to the broker. However, it is undesirable to keep many TCP connections open at the same time because doing so consumes system resources and makes it more difficult to configure firewalls. So, channels can be thought of as “lightweight connections that share a single TCP connection”.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel.exchange_declare(exchange=’direct_exchange’,   exchange_type=’direct’)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 7, we create an &lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html#exchanges&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Exchange&lt;/a&gt;. As what we’ve discussed earlier, The responsibility of the Exchange is to route the messages to the queue or queues. Exchange knows where to route the messages based on the specified routing key. We declare our Exchange with two parameters: exchange — the name of the exchange, and the &lt;code class=&quot;language-text&quot;&gt;exchange_type—&lt;/code&gt; the type of the exchange controls how the message will be routed. There are four types of exchange:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html#exchange-default&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;direct exchange&lt;/a&gt; — delivers messages to queues based on the message routing key.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html#exchange-fanout&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;fanout exchange&lt;/a&gt; — routes messages to all of the queues that are bound to it and the routing key is ignored.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html#exchange-topic&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;topic exchanges&lt;/a&gt; — route messages to one or many queues based on matching between a message routing key and the pattern that was used to bind a queue to an exchange. Routing keys follows this pattern &lt;word&gt;.&lt;word&gt;.&lt;n-word&gt;, and to find a match we use * (star) to substitute for exactly one word and # (hash) to substitute for zero or more words.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html#exchange-headers&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;headers exchange&lt;/a&gt; — is designed for routing on multiple attributes that are more easily expressed as message headers than a routing key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel.queue_declare(queue=’direct_queue’, durable=True)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 8, We create a &lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html#queues&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;queue&lt;/a&gt; with &lt;code class=&quot;language-text&quot;&gt;queue&lt;/code&gt; — the queue name and durable as parameter. When RabbitMQ quits or crashes it will forget the queues and messages unless you tell it not to. By setting our queue as durable, we can make sure that even if RabbitMQ quits or crashes, our queues wont be deleted.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel.queue_bind(exchange=&apos;direct_exchange&apos;, queue=&quot;direct_queue&quot;, routing_key=&quot;direct.routing.key&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 9, we &lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html#bindings&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;bind&lt;/a&gt; our queue to an exchange and specified the routing key. As a result, Exchange now knows where to route the messages based on the specified routing key and the type of the exchange.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel.confirm_delivery()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 13, we enable &lt;a href=&quot;https://www.rabbitmq.com/confirms.html#publisher-confirms&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;publish confirms&lt;/a&gt;, by doing so the message broker will raise an error if it fails to route our messages to our queue or queues. Take note that by enabling publish confirms, it adds a little overhead as the message broker needs to confirm the message delivery to the publisher.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;try:
+    channel.basic_publish(exchange=&apos;direct_exchange&apos;, routing_key=&apos;direct.routing.key&apos;,
+                          body=message, properties=pika.BasicProperties(delivery_mode=2)
+                          )
+
+    print(&quot;Sent %r&quot; % message)
+except pika.exceptions.UnroutableError:
+    print(&quot;Failed to send message %r&quot; % message)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 14–21, we publish a message to the queue. Based on the parameters we tell the publisher to publish our message (body parameter) to an exchange named &lt;code class=&quot;language-text&quot;&gt;direct_exchange&lt;/code&gt; with the routing key &lt;code class=&quot;language-text&quot;&gt;direct.routing.key&lt;/code&gt; .These parameters are self explanatory except the properties parameter. With additional properties, we tell the publisher to deliver our message using &lt;code class=&quot;language-text&quot;&gt;delivery_mode=2&lt;/code&gt; meaning we want to make our message persistent. Just like with queues, messages are non-persistent unless we told RabbitMQ to make it persistent. Non-persistent queues and messages will be deleted in case RabbitMQ quits or crashes, by making the queues and messages persistent we can make sure that the queues and message will survive in case RabbitMQ quits or crashes. and on line 20, we catch an exception when the message broker fails to route our message to the queue or queues. This gives us an option if we want to republish the message or drop it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;connection.close()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 22, we’re closing the connection. It is not a good practice to open and close connections and channels every time we publish a message. Connections are long lived and it takes resources to keep opening and closing them. I just include this line for the example purposes on how to close the connection.&lt;/p&gt;
+&lt;h3 id=&quot;consumer-example&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#consumer-example&quot; aria-label=&quot;consumer example permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Consumer Example&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import pika
+import time
+
+connection = pika.BlockingConnection(pika.ConnectionParameters(&apos;localhost&apos;))
+channel = connection.channel()
+
+channel.exchange_declare(exchange=&apos;direct_exchange&apos;, exchange_type=&apos;direct&apos;)
+channel.queue_declare(queue=&apos;direct_queue&apos;, durable=True)
+channel.queue_bind(exchange=&apos;direct_exchange&apos;, queue=&quot;direct_queue&quot;, routing_key=&quot;direct.routing.key&quot;)
+
+
+def callback(ch, method, properties, body):
+        print(&quot;Received %r&quot; % body)
+        time.sleep(body.count(b&apos;.&apos;))
+        print(&quot;Done&quot;)
+        ch.basic_ack(delivery_tag=method.delivery_tag)
+
+
+channel.basic_qos(prefetch_count=1)
+channel.basic_consume(callback, queue=&apos;direct_queue&apos;)
+
+print(&apos;Waiting for messages. To exit press CTRL+C&apos;)
+channel.start_consuming()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;connection = pika.BlockingConnection(pika.ConnectionParameters(&apos;localhost&apos;))                       channel = connection.channel()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 1–9 have the same explanation with the publisher app. For Line 4–5, Its understandable that we need to create a connection and channel so we can connect to the message broker.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel.exchange_declare(exchange=&apos;direct_exchange&apos;, exchange_type=&apos;direct&apos;)
+channel.queue_declare(queue=&apos;direct_queue&apos;, durable=True)
+channel.queue_bind(exchange=&apos;direct_exchange&apos;, queue=&quot;direct_queue&quot;, routing_key=&quot;direct.routing.key&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But for line 7–9, it doesn’t make sense, because we already created and configure the queue in the publisher app. The reason behind this redundancy is that we need to make sure that the queue exist or else RabbitMQ will just drop the message. So technically, declaring and configuring the queue on the publisher and consumer app is considered a good practice in RabbitMQ. Declaring a queue with the same name and properties is idempotent, meaning we can run it multiple times but only one queue will be created. But take note that if we create a queue with the same name with different properties, RabbitMQ will raise an error.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;def callback(ch, method, properties, body):
+        print(&quot;Received %r&quot; % body)
+        time.sleep(body.count(b&apos;.&apos;))
+        print(&quot;Done&quot;)
+        ch.basic_ack(delivery_tag=method.delivery_tag)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 12–16 is our callback function, meaning this will be triggered once we consume a message from the queue. This callback function requires four parameter the:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ch&lt;/code&gt; — the channel instance.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;method&lt;/code&gt; — include the details how the message is delivered (e.g &lt;code class=&quot;language-text&quot;&gt;routing_key&lt;/code&gt; , &lt;code class=&quot;language-text&quot;&gt;exchange&lt;/code&gt; , and &lt;code class=&quot;language-text&quot;&gt;delivery_tag&lt;/code&gt; )&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;properties&lt;/code&gt; — the properties we set on the publisher (e.g &lt;code class=&quot;language-text&quot;&gt;delivery_mode&lt;/code&gt; )&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;body&lt;/code&gt; — the message we consumed from the queue. it is in bytes datatype.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ch.basic_ack(delivery_tag=method.delivery_tag)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 16, we &lt;a href=&quot;https://www.rabbitmq.com/confirms.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;acknowledge&lt;/a&gt; that the message was successfully processed by the consumer and it is now safe to delete it from the queue. By default, the acknowledgment happens automatically. This means that once the message was consumed by the consumer the message in the queue will be deleted even though the consumer is not done processing the message. This mode is often referred to as “fire-and-forget”. Unlike with manual acknowledgement model, if consumers’s TCP connection or channel is closed before successful delivery, the message sent by the server will be lost. Therefore, automatic message acknowledgement should be considered unsafe and not suitable for all workloads.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel.basic_qos(prefetch_count=1)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 19, we set the &lt;a href=&quot;https://www.rabbitmq.com/consumer-prefetch.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;qos (Quality of Service)&lt;/a&gt; with &lt;code class=&quot;language-text&quot;&gt;prefetch=1&lt;/code&gt;, to make sure only one message will be consumed and the RabbitMQ wont push any message to the consumer until the current message was acknowledged. If we don’t set any qos &lt;code class=&quot;language-text&quot;&gt;prefetch&lt;/code&gt; the consumer will accept as much number of messages it can handle and this can cause bottleneck as we can have as much number of inflight and unacknowledged messages on the consumer that supposedly can handle by another consumer instance.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel.basic_consume(callback, queue=&apos;direct_queue&apos;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Line 20, we set the consumer to consume from the &lt;code class=&quot;language-text&quot;&gt;direct_queue&lt;/code&gt; and to set our &lt;code class=&quot;language-text&quot;&gt;callback()&lt;/code&gt; as consumer callback. So every time the consumer consumes a message from the queue this &lt;code class=&quot;language-text&quot;&gt;callback()&lt;/code&gt; will be automatically triggered.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;channel.start_consuming()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And lastly, on Line 23, we trigger an infinite loop that waits for a message and trigger our &lt;code class=&quot;language-text&quot;&gt;callback()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now by dissecting our code examples line by line, we have a better grasp and understanding on how RabbitMQ works and how we can implement this robust message broker on our applications whenever it is applicable.&lt;/p&gt;
+&lt;p&gt;Happy Coding!&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#resources&quot; aria-label=&quot;resources permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=deG25y_r6OY&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ in 5 minutes by Bernhard Wenzel Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=XjuiZM7JzPw&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Reliable Messaging With RabbitMQ — Part 1 by JimOnDemand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Mjq8cLEVApE&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Exchange Types and its use cases with Examples by Tech WatchDog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=aru59OmRNJ0&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;High availability and failover in RabbitMQ by Tech WatchDog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/redis-vs-rabbitmq-message-broker-vishnu-kiran-k-v&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Redis vs RabbitMq as a message broker by Vishnu Kiran K V&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.amqp.org/about/what&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;AMQP is the Internet Protocol for Business Messaging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/amqp-concepts.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;AMQP 0–9–1 Model Explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/confirms.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Consumer Acknowledgements and Publisher Confirms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/channels.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Channels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/consumers.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Consumers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/tutorial-one-python.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Basic Python Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/tutorial-two-python.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Basic Python Tutorial — Work Queues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/tutorial-three-python.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Basic Python Tutorial — Publisher/Subscriber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/tutorial-four-python.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Basic Python Tutorial — Routing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/tutorials/tutorial-five-python.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Basic Python Tutorial — Topics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitmq.com/devtools.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RabbitMQ Libraries and Devtools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Python Mock and MagicMock]]></title><description><![CDATA[While I’m looking for a way to test my Python function that has a pymysql query, I stumble upon a code snippet with mock.MagicMock(). This pique my curiosity how it differs with mock.Mock() in Python. This article will discuss the difference between the two and when to use one over the other.]]></description><link>https://ryanermita.com/posts/python-mock-and-magicmock</link><guid isPermaLink="false">https://ryanermita.com/posts/python-mock-and-magicmock</guid><pubDate>Mon, 04 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;While I’m looking for a way to test my function that has a pymysql query, I stumble upon a &lt;a href=&quot;https://stackoverflow.com/q/39227681&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;code snippet&lt;/a&gt; with this line. (the same time I saw &lt;a href=&quot;https://medium.com/ryans-dev-notes/python-autospeccing-72c2a5ba5e28&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;python autospeccing&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mock_cursor = mock.MagicMock()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I always use &lt;code class=&quot;language-text&quot;&gt;Mock&lt;/code&gt; when I do &lt;a href=&quot;https://medium.com/ryans-dev-notes/unit-testing-with-python-unittest-module-c37531e28d75&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;unit test in python&lt;/a&gt;, and its my first time to see a &lt;code class=&quot;language-text&quot;&gt;MagicMock&lt;/code&gt;. So it got me curious, what is the difference between the two and when to use one over the other.&lt;/p&gt;
+&lt;h2 id=&quot;mock-and-magicmock&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mock-and-magicmock&quot; aria-label=&quot;mock and magicmock permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mock and MagicMock&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.Mock&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Mock&lt;/code&gt;&lt;/a&gt; is use for replacing or mocking an object in python unittest while &lt;a href=&quot;https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.MagicMock&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;MagicMock&lt;/code&gt;&lt;/a&gt; is a subclass of Mock with all the &lt;a href=&quot;https://dbader.org/blog/python-dunder-methods&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;magic methods&lt;/a&gt; pre-created and ready to use. These are the pre-created magic methods and its default values for &lt;code class=&quot;language-text&quot;&gt;MagicMock&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;__lt__: NotImplemented
+__gt__: NotImplemented
+__le__: NotImplemented
+__ge__: NotImplemented
+__int__: 1
+__contains__: False
+__len__: 0
+__iter__: iter([])
+__exit__: False
+__complex__: 1j
+__float__: 1.0
+__bool__: True
+__index__: 1
+__hash__: default hash for the mock
+__str__: default str for the mock
+__sizeof__: default sizeof for the mock&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Below is an example of &lt;code class=&quot;language-text&quot;&gt;Mock&lt;/code&gt; trying to use one of the magic method pre-created in &lt;code class=&quot;language-text&quot;&gt;MagicMock&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import unittest
+from unittest.mock import Mock
+
+class TestMock(unittest.TestCase):
+    def test_mock(self):
+        mocked_object = Mock()
+        print(len(mocked_object))  # magic method
+        pass
+
+result:
+test_mock (test_func.TestMock) ... 
+
+ERROR====================================================================
+ERROR: test_mock (test_func.TestMock)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/Users/ryan/Workspace/playground/test_func.py&quot;, line 9, in test_mock
+    print(len(mocked_object))
+TypeError: object of type &apos;Mock&apos; has no len()
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+FAILED (errors=1)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Below is an example of &lt;code class=&quot;language-text&quot;&gt;MagicMock&lt;/code&gt; trying to use one of its pre-created magic method.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import unittest
+from unittest.mock import MagicMock
+
+class TestMagicMock(unittest.TestCase):
+
+    def test_magicmock(self):
+        mocked_object = MagicMock()
+        print(len(mocked_object))  # magic method
+        pass
+
+result:
+test_mock (test_func.TestMagicMock) ... 0
+ok
+--------------------------------------------------------------------
+Ran 1 test in 0.001s
+OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And below is an example on how can we create those magic methods in &lt;code class=&quot;language-text&quot;&gt;Mock&lt;/code&gt; manually.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import unittest
+from unittest.mock import Mock
+
+class TestMock(unittest.TestCase):
+    def test_mock(self):
+        mocked_object = Mock()    #manually create a magic method    
+        mocked_object.__len__ = Mock(return_value=1)
+        print(len(mocked_object))  # magic method
+        pass
+    
+result:
+test_mock (test_func.TestMockAndMagicMock) ... 0
+ok
+-------------------------------------------------------------------
+Ran 1 test in 0.000s
+OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&quot;application&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#application&quot; aria-label=&quot;application permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Application&lt;/h2&gt;
+&lt;p&gt;If &lt;code class=&quot;language-text&quot;&gt;MagicMock&lt;/code&gt; already creates the magic methods automatically, what is the use of &lt;code class=&quot;language-text&quot;&gt;Mock&lt;/code&gt;? Why not just upgrade the &lt;code class=&quot;language-text&quot;&gt;Mock&lt;/code&gt; class with pre-created magic methods? and what scenarios can I use Mock and MagicMock? Luckily, someone already ask that &lt;a href=&quot;https://stackoverflow.com/questions/17181687/mock-vs-magicmock&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;question on stackoverflow&lt;/a&gt; and it is a pretty good answer. The answer is quoted from &lt;a href=&quot;https://twitter.com/voidspace&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Michael Foord&lt;/a&gt; the author of &lt;code class=&quot;language-text&quot;&gt;Mock&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;Q&lt;/strong&gt;: Why was MagicMock made a separate thing rather than just folding the ability into the default mock object?&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;A&lt;/strong&gt;: One reasonable answer is that the way MagicMock works is that it preconfigures all these protocol methods by creating new Mocks and setting them, so if every new mock created a bunch of new mocks and set those as protocol methods and then all of those protocol methods created a bunch more mocks and set them on their protocol methods, you’ve got infinite recursion…&lt;/p&gt;
+&lt;p&gt;  What if you want accessing your mock as a container object to be an error — you don’t want that to work? If every mock has automatically got every protocol method, then it becomes much more difficult to do that. And also, MagicMock does some of this preconfiguring for you, setting return values that might not be appropriate, so I thought it would be better to have this convenience one that has everything preconfigured and available for you, but you can also take a ordinary mock object and just configure the magic methods you want to exist…&lt;/p&gt;
+&lt;p&gt;  The simple answer is: just use MagicMock everywhere if that’s the behavior you want.&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#resources&quot; aria-label=&quot;resources permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python.org/3/library/unittest.mock.html#unittest.mock.MagicMock&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python Documentation: MagicMock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python.org/3.5/library/unittest.mock.html#the-mock-class&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python Documentation: Mock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pyvideo.org/pycon-us-2011/pycon-2011--testing-with-mock.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Michael Foord, Testing with Mock, PyCon2011 Atlanta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/q/17181687&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;StackOverflow’s Mock vs MagicMock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dbader.org/blog/python-dunder-methods&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Enriching Your Python Classes With Dunder (Magic, Special) Methods&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Python Autospeccing]]></title><description><![CDATA[While I’m looking for a way to test my function that has a pymysql query, I stumble upon a code snippet with @mock.patch('simple.pymysql', autospec=True). So I took my time to know how this stuff works. Apparently Python has a very good documentation about it. This article summarizes what I understand about Python Autospec.]]></description><link>https://ryanermita.com/posts/python-autospeccing</link><guid isPermaLink="false">https://ryanermita.com/posts/python-autospeccing</guid><pubDate>Sun, 03 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;While I’m looking for a way to test my function that has a pymysql query, I stumble upon a code snippet with this line.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;@mock.patch(&apos;simple.pymysql&apos;, autospec=True)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;So I took my time to know how this stuff works. Apparently Python has a very good documentation about it.&lt;/p&gt;
+&lt;h2 id=&quot;whats-autospectrue-for&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#whats-autospectrue-for&quot; aria-label=&quot;whats autospectrue for permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What’s &lt;code class=&quot;language-text&quot;&gt;autospec=True&lt;/code&gt; for?&lt;/h2&gt;
+&lt;p&gt;  If you set &lt;code class=&quot;language-text&quot;&gt;autospec=True&lt;/code&gt; then the mock will be created with a spec from the object being replaced. All attributes of the mock will also have the spec of the corresponding attribute of the object being replaced. Methods and functions being mocked will have their arguments checked and will raise a &lt;code class=&quot;language-text&quot;&gt;TypeError&lt;/code&gt; if they are called with the wrong signature. — &lt;a href=&quot;https://docs.python.org/3.5/library/unittest.mock.html#patch&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python Patch documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To make it short, &lt;code class=&quot;language-text&quot;&gt;autospec=True&lt;/code&gt; creates a mock object with the spec of the object being mocked. It is &lt;code class=&quot;language-text&quot;&gt;False&lt;/code&gt; by default. You can also create a autospecced Mock object using &lt;code class=&quot;language-text&quot;&gt;create_autospec(spec)&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import unittest
+from unittest.mock import patch
+
+class MyDummyClass:
+
+    def test_dummy_function(self):
+        return &quot;hello&quot;
+
+
+class TestAutoSpec(unittest.TestCase):
+
+    @patch(&apos;test_func.MyDummyClass&apos;, autospec=True)
+    def test_autospec_true(self, mock_dummy_class):
+        print(dir(mock_dummy_class))
+        pass
+
+    @patch(&apos;test_func.MyDummyClass&apos;)
+    def test_autospec_false(self, mock_dummy_class):
+        print(dir(mock_dummy_class))
+        pass&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The sample test script above will have this output below.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;python -m unittest test_func.py -v
+test_autospec_false (test_func.TestAutoSpec) ... [&apos;assert_any_call&apos;, &apos;assert_called&apos;, &apos;assert_called_once&apos;, &apos;assert_called_once_with&apos;, &apos;assert_called_with&apos;, &apos;assert_has_calls&apos;, &apos;assert_not_called&apos;, &apos;attach_mock&apos;, &apos;call_args&apos;, &apos;call_args_list&apos;, &apos;call_count&apos;, &apos;called&apos;, &apos;configure_mock&apos;, &apos;method_calls&apos;, &apos;mock_add_spec&apos;, &apos;mock_calls&apos;, &apos;reset_mock&apos;, &apos;return_value&apos;, &apos;side_effect&apos;]
+ok
+test_autospec_true (test_func.TestAutoSpec) ... [&apos;__class__&apos;, &apos;__delattr__&apos;, &apos;__dict__&apos;, &apos;__dir__&apos;, &apos;__doc__&apos;, &apos;__eq__&apos;, &apos;__format__&apos;, &apos;__ge__&apos;, &apos;__getattribute__&apos;, &apos;__gt__&apos;, &apos;__hash__&apos;, &apos;__init__&apos;, &apos;__init_subclass__&apos;, &apos;__le__&apos;, &apos;__lt__&apos;, &apos;__module__&apos;, &apos;__ne__&apos;, &apos;__new__&apos;, &apos;__reduce__&apos;, &apos;__reduce_ex__&apos;, &apos;__repr__&apos;, &apos;__setattr__&apos;, &apos;__sizeof__&apos;, &apos;__str__&apos;, &apos;__subclasshook__&apos;, &apos;__weakref__&apos;, &apos;assert_any_call&apos;, &apos;assert_called&apos;, &apos;assert_called_once&apos;, &apos;assert_called_once_with&apos;, &apos;assert_called_with&apos;, &apos;assert_has_calls&apos;, &apos;assert_not_called&apos;, &apos;attach_mock&apos;, &apos;call_args&apos;, &apos;call_args_list&apos;, &apos;call_count&apos;, &apos;called&apos;, &apos;configure_mock&apos;, &apos;method_calls&apos;, &apos;mock_add_spec&apos;, &apos;mock_calls&apos;, &apos;reset_mock&apos;, &apos;return_value&apos;, &apos;side_effect&apos;, &apos;test_dummy_function&apos;]
+ok&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you can notice with the result, the test method with &lt;code class=&quot;language-text&quot;&gt;autospec=True&lt;/code&gt; has additional &lt;code class=&quot;language-text&quot;&gt;test_dummy_function&lt;/code&gt; and &lt;a href=&quot;https://dbader.org/blog/python-dunder-methods&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;dunder/magic methods&lt;/a&gt;. Those additional functions are part of the spec of &lt;code class=&quot;language-text&quot;&gt;MyDummyClass&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;why-does-autospeccing-exist&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-does-autospeccing-exist&quot; aria-label=&quot;why does autospeccing exist permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why does autospeccing exist?&lt;/h2&gt;
+&lt;p&gt;Based on the Python documentation autospeccing solves these two flaws of Mocking objects.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Because mocks auto-create attributes on demand&lt;/strong&gt;, and allow you to call them with arbitrary arguments, if you misspell one of these assert methods then your assertion is gone.&lt;/li&gt;
+&lt;li&gt;The second issue is more general to mocking. If you refactor some of your code, rename members and so on, &lt;strong&gt;any tests for code that is still using the old API but uses mocks instead of the real objects will still pass&lt;/strong&gt;. This means your tests can all pass even though your code is broken.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If Mocking have those flaws and autospeccing solves it. Why not just create Mock objects with &lt;code class=&quot;language-text&quot;&gt;autospec=True&lt;/code&gt; by default instead of &lt;code class=&quot;language-text&quot;&gt;False&lt;/code&gt;? The reason behind this is also written in Python Documentation:&lt;/p&gt;
+&lt;p&gt;  This isn’t without caveats and limitations however, which is why it is not the default behaviour. In order to know what attributes are available on the spec object, autospec has to introspect (access attributes) the spec. As you traverse attributes on the mock a corresponding traversal of the original object is happening under the hood. If any of your specced objects have properties or descriptors that can trigger code execution then you may not be able to use autospec. On the other hand it is much better to design your objects so that introspection is safe.&lt;/p&gt;
+&lt;p&gt;  A more serious problem is that it is common for instance attributes to be created in the &lt;a href=&quot;https://docs.python.org/3.5/reference/datamodel.html#object.__init__&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;__init__()&lt;/code&gt;&lt;/a&gt; method and not to exist on the class at all. &lt;strong&gt;autospec can’t know about any dynamically created attributes and restricts the API to visible attributes.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is a simple code snippet that demonstrate the quoted caveat above.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import unittest
+from unittest.mock import patch
+
+
+class MyDummyClass:
+
+    def __init__(self):
+        self.my_dummy_attribute = &quot;yey!&quot;
+
+    def test_dummy_function(self):
+        return &quot;hello&quot;
+
+
+class TestAutoSpec(unittest.TestCase):
+
+    @patch(&apos;test_func.MyDummyClass&apos;, autospec=True)
+    def test_autospec_function(self, mock_dummy_class):
+        self.assertTrue(hasattr(mock_dummy_class, &quot;test_dummy_function&quot;))
+
+    @patch(&apos;test_func.MyDummyClass&apos;, autospec=True)
+    def test_autospec_attribute(self, mock_dummy_class):
+        self.assertTrue(hasattr(mock_dummy_class, &quot;test_dummy_attribute&quot;))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The snippet above will result to this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;python -m unittest test_func.py -v
+test_autospec_attribute (test_func.TestAutoSpec) ... FAIL
+test_autospec_function (test_func.TestAutoSpec) ... ok
+======================================================================
+FAIL: test_autospec_attribute (test_func.TestAutoSpec)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/mock.py&quot;, line 1179, in patched
+    return func(*args, **keywargs)
+  File &quot;/Users/ryan/Workspace/playground/test_func.py&quot;, line 22, in test_autospec_attribute
+    self.assertTrue(hasattr(mock_dummy_class, &quot;test_dummy_attribute&quot;))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.010s
+FAILED (failures=1)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;test_autospec_attribute&lt;/code&gt; failed because the mocked object doesn’t know about the &lt;code class=&quot;language-text&quot;&gt;test_dummy_attribute&lt;/code&gt; which is dynamically created in the &lt;code class=&quot;language-text&quot;&gt;__init__()&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Autospeccing is a great tool for testing. It minimize the errors caused by misspelling of the methods and making sure our mocked objects are updated based on the changes of the original object which is a great help for refactoring.&lt;/p&gt;
+&lt;p&gt;But like any other tools, don’t overuse it. Understanding the tools and knowing the applicable use of those tools are utmost important.&lt;/p&gt;
+&lt;p&gt;Happy testing!&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#resources&quot; aria-label=&quot;resources permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python.org/3.5/library/unittest.mock.html#autospeccing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python Documentation: Autospeccing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python.org/3.5/library/unittest.mock.html#unittest.mock.create_autospec&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python Documentation: create_autospec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/35915703/when-using-unittest-mock-patch-why-is-autospec-not-true-by-default&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;When using unittest.mock.patch, why is autospec not True by default?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dbader.org/blog/python-dunder-methods&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Enriching Your Python Classes With Dunder (Magic, Special) Methods&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Unit Testing with Python unittest module]]></title><description><![CDATA[A well-designed software is build and designed with quality in mind and it doesn’t easily break with small code changes. We can ensure that our code still works regardless of code changes if we’re doing tests. That’s why doing tests is very important part of building a well-designed application because it ensures quality. Aside from software quality this arcticle will discuss other reasons why writing tests on your software is necessary. Also, this article will have a walk-through on how to write unit tests in Python using unittest module.]]></description><link>https://ryanermita.com/posts/unit-testing-with-python-unittest-module</link><guid isPermaLink="false">https://ryanermita.com/posts/unit-testing-with-python-unittest-module</guid><pubDate>Thu, 20 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A well-designed software is build and designed with quality in mind and it doesn’t easily break with small code changes. We can ensure that our code still works regardless of code changes if we’re doing tests. That’s why doing tests is very important part of building a well-designed application because it ensures quality. This statement below by &lt;a href=&quot;https://jacobian.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Jacob Kaplan-Moss&lt;/a&gt;, a &lt;a href=&quot;https://www.djangoproject.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;django&lt;/a&gt; core developer, says it all.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code without tests is broken by design. - Jacob Kaplan-Moss&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So what is unit test, Unit Testing is a process of testing small pieces or unit of your code, making sure it works as expected in a positive and negative scenarios. Our mindset during unit testing should be on that small piece of code we’re testing and not with the whole application. In Python, there are a lot of libraries you can use to do unit test: &lt;a href=&quot;https://docs.pytest.org/en/latest/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;pytest&lt;/a&gt;, &lt;a href=&quot;https://nose.readthedocs.io/en/latest/testing.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;nose&lt;/a&gt;, &lt;a href=&quot;https://docs.python.org/3.5/library/unittest.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;unittest&lt;/a&gt; among others. In this article we will focus on using unittest with python version 3.5.2.&lt;/p&gt;
+&lt;h2 id=&quot;why-write-unit-tests&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-write-unit-tests&quot; aria-label=&quot;why write unit tests permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why Write Unit Tests?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It saves us a lot of time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Doing manual testing takes a lot of time and effort, imagine we need to test every positive and negative scenarios every time we did an update on our codebase, the larger the code base, the larger the effort and time we put on manual testing and there’s a big possibility that we’ll missed a lot of scenarios. By writing unit tests, we can easily automate our tests and rerun it every time we update our code. Running automated tests would take a minute or two compared with manual testing that could take more than 15 minutes. Unit Test formalize the test approach in a way it saves time and effort.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Increase Code Quality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developing new features, fixing bugs, or code refactoring might introduce new bugs or breaks our code in any way. Unit test prevent or lessen the chance of that from happening. By running our unit tests every time we did an update in our codebase we can validate if those updates breaks any existing feature(s) in our application. Also, writing tests forces us to think about the non-normal conditions or edges cases our code might encounter and prevent them as soon as possible.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Helps us to have a Good System Design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As stated above, Unit Testing is a process of testing small pieces or unit of our code. That’s why unit test should be small, if you realized that you’re writing a large amount of code for unit test just for a single function, you need to refactor that function to make it small, modular, and loosely coupled. A modular and loosely coupled application is a well-designed application.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unit Tests also serves as a documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As a new member of a team, looking at the unit tests of the codebase is a great help for understanding the project. Unit Tests shows what would be the behavior of the functions/modules in a specific scenario. This serves as the business-rule documentation inside our codebase.&lt;/p&gt;
+&lt;h2 id=&quot;python-unittest-module-walk-through&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python-unittest-module-walk-through&quot; aria-label=&quot;python unittest module walk through permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python unittest module walk-through&lt;/h2&gt;
+&lt;p&gt;We’ll use this simple test script below to demonstrate how to write and run unit tests using python unittest module.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# test_foo.py
+import unittest
+
+# function to be tested
+def add(a, b):
+    return a + b
+
+class FooTestCase(unittest.TestCase):    
+    
+    # test method       
+    def test_add(self):
+        sum = add(1, 2) 
+        
+        # validate the result of the code we&apos;re testing.
+        self.assertEqual(3, sum)    
+    
+    def test_add_negative_numbers(self):
+        sum = add(-1-2)
+        self.assertEqual(-3, sum)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&quot;to-write-a-test-script-using-python-unittest-module&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#to-write-a-test-script-using-python-unittest-module&quot; aria-label=&quot;to write a test script using python unittest module permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;To write a test script using python unittest module:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Create an empty python file with the filename prefixed by &lt;code class=&quot;language-text&quot;&gt;test_&lt;/code&gt; . This way we can easily distinguish that a file is a test script.&lt;/li&gt;
+&lt;li&gt;We start by importing the unittest module, we don’t need to install anything as it is part of python standard library.&lt;/li&gt;
+&lt;li&gt;We write our testcases. Writing testcases using unittest module follows the object oriented programming paradigm. Our testcase is a class which extends from &lt;code class=&quot;language-text&quot;&gt;unittest.TestCase&lt;/code&gt;. TestCase from unittest module has the methods and attributes we need in running and validating our code.&lt;/li&gt;
+&lt;li&gt;We create test methods to validate different scenarios in our code. We use &lt;a href=&quot;https://docs.python.org/3.5/library/unittest.html#unittest.TestCase.debug&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;assert* methods&lt;/code&gt;&lt;/a&gt; from &lt;code class=&quot;language-text&quot;&gt;unittest.TestCase&lt;/code&gt; to validate our code based on our expected output and the result of the code we’re testing, as with the example above we’re validating if the &lt;code class=&quot;language-text&quot;&gt;add()&lt;/code&gt; function return value is equal with our expected value. When writing test methods its a best practice to make the method name as descriptive as possible, its a good idea to use sentence-like format when naming test methods as this will show in the report after running all our tests. Also don’t forget to prefix your test method with &lt;code class=&quot;language-text&quot;&gt;test_&lt;/code&gt; so unittest will know that they will be run, evaluated, and include in test reporting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;to-run-test-scripts-written-via-unittest-module&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#to-run-test-scripts-written-via-unittest-module&quot; aria-label=&quot;to run test scripts written via unittest module permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;To run test scripts written via unittest module:&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;python -m unittest test_foo -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;which will result into this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;test_add (test_foo.TestFoo) ... ok
+test_add_negative_numbers (test_foo.TestFoo) ... ok
+
+------------------------------------------------------------------
+Ran 2 tests in 0.000s
+OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The test result is very easy to understand, It shows the total test count and the test methods that is included in our test script. And when we encounter an error or failure in our test, it gives helpful information to fix the issue. for example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;test_add (test_foo.TestFoo) ... FAIL
+test_add_negative_numbers (test_foo.TestFoo) ... ok
+
+==================================================================
+FAIL: test_add (test_foo.TestFoo)
+------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/home/ryan/Workspace/playground/python-unittest/test_foo.py&quot;, line 13, in test_add
+    self.assertEqual(4, sum)
+AssertionError: 4 != 3
+
+------------------------------------------------------------------
+Ran 2 tests in 0.000s
+FAILED (failures=1)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There are many ways to run a unittest script which is flexible enough to meet our needs. I include the &lt;code class=&quot;language-text&quot;&gt;-v&lt;/code&gt; option to have a verbose output.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# discover and run all test scripts 
+# from current package and its sub package.
+python -m unittest discover -v
+
+# equivalent with the command above.
+python -m unittest -v
+
+# discover and run all test scripts 
+# from specified package and its sub modules.
+python -m unittest &amp;lt;package&gt; -v
+
+# run specific test script
+python -m test_script -v# run specific test class inside a test script
+python -m unittest test_module.TestClass -v
+
+# run specific test method of a test class of a test module
+python -m unittest test_module.TestClass.test_method -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Also, we can make our test script executable. By doing so, we can remove &lt;code class=&quot;language-text&quot;&gt;-m unittest&lt;/code&gt; and run the test script as normal python script. But there’s a caveat, we can only run the test script as a whole and not by testcase class or by test methods.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if __name__ == &apos;__main__&apos;:
+    unittest.main()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Including the code block above at the bottom of our test script, we can now run our test script using this command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;python test_foo.py -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We can skip a test method in our testcase using &lt;code class=&quot;language-text&quot;&gt;@unittest.skip(&quot;your reason&quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;@unittest.skip(&quot;skipping test because i like it.&quot;)
+def test_add_negative_numbers(self):
+        sum = add(-1,-2)                                
+        self.assertEqual(-3, sum)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will give us this result:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;test_add (test_foo.TestFoo) ... ok
+test_add_negative_numbers (test_foo.TestFoo) ... skipped &apos;skipping test because i like it.&apos;
+
+------------------------------------------------------------------
+Ran 2 tests in 0.000sOK (skipped=1)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&quot;test-setup-and-cleanup&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#test-setup-and-cleanup&quot; aria-label=&quot;test setup and cleanup permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Test setup and cleanup&lt;/h3&gt;
+&lt;p&gt;Most of the time we need to run a code before and after a test method. For example, before running our test method we need to setup the database connection, initialize our classes, prepare our test data, etc. Also after we run our test method, we need to close our database connection and clear any traces of our tests. These actions are called &lt;strong&gt;test fixtures&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In python unittest module, this test fixtures are possible by overriding these methods in our testcase class:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;setUp()&lt;/code&gt; — runs before every test method.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;tearDown()&lt;/code&gt; — runs after every test method.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;setUpClass()&lt;/code&gt; — runs before all the test methods. This is decorated by &lt;code class=&quot;language-text&quot;&gt;@classmethod&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;tearDownClass()&lt;/code&gt; — runs after all the test methods. This is decorated by &lt;code class=&quot;language-text&quot;&gt;@classmethod&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# test_foo.py
+import unittestdef add(a, b):
+    return a + bclass TestFoo(unittest.TestCase):    
+    
+    @classmethod
+    def setUpClass(self):
+        print(&quot;this will run before all test methods.&quot;)    
+        
+    @classmethod    
+    def tearDownClass(self):    
+        print(&quot;this will run after all test methods.&quot;)   
+ 
+    def setUp(self):
+        print(&quot;this will run before every test method.&quot;)    
+        
+    def tearDown(self):    
+        print(&quot;this will run after every test method.&quot;)   
+        
+    def test_add(self):
+        sum = add(1, 2)
+        print(&quot;I am test_add()&quot;)
+        self.assertEqual(3, sum)
+ 
+    def test_add_negative_numbers(self):
+        sum = add(-1, -2)
+        print(&quot;I am test_add_negative_numbers()&quot;)
+        self.assertEqual(-3, sum)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The test script above will give us this result:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;this will run before all test methods.
+test_add (test_foo.TestFoo) ... this will run before every test method.
+I am test_add()
+this will run after every test method.
+ok
+test_add_negative_numbers (test_foo.TestFoo) ... this will run before every test method.
+I am test_add_negative_numbers()
+this will run after every test method.
+ok
+this will run after all test methods.
+
+------------------------------------------------------------------
+Ran 2 tests in 0.000s
+OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&quot;mocking-with-unittest-module&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mocking-with-unittest-module&quot; aria-label=&quot;mocking with unittest module permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mocking with unittest module&lt;/h3&gt;
+&lt;p&gt;There are times that the function/module which is the subject of our unit test has some dependencies that we don’t have any control of, e.g external APIs or services, python standard modules, or other modules that we wrote inside our project. These dependencies might cause undesirable side effects during our test and might hinder the test itself. Good thing we can mock these dependencies and focus only on the code that we need to test.&lt;/p&gt;
+&lt;p&gt;Let’s use this simple functions below to explore how to mock function/module using unittest module:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# test_foo.py# function from third party package/module.
+def is_legal_age(age):
+    return age &gt;= 18# function to be tested
+def poison():
+    if is_legal_age(18):
+        return &quot;Vodka&quot;
+    return &quot;Apple Juice&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The test script below shows how we test the &lt;code class=&quot;language-text&quot;&gt;poison()&lt;/code&gt; function. Our &lt;code class=&quot;language-text&quot;&gt;poison()&lt;/code&gt; function is dependent to &lt;code class=&quot;language-text&quot;&gt;is_legal_age()&lt;/code&gt; function which is located from other module.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import unittest
+from unittest.mock import patchclass TestFoo(unittest.TestCase):    
+
+    @patch(&quot;test_foo.is_legal_age&quot;)
+    def test_poison_for_legal_age(self,
+                                  mock_people_is_legal_age):
+        mock_people_is_legal_age.return_value = False
+        self.assertEqual(poison(), &quot;Apple Juice&quot;)    
+        
+    @patch(&quot;test_foo.is_legal_age&quot;)
+    def test_poison_for_illegal_age(self,
+                                    mock_people_is_legal_age):
+        mock_people_is_legal_age.return_value = True
+        self.assertEqual(poison(), &quot;Vodka&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Import &lt;code class=&quot;language-text&quot;&gt;patch&lt;/code&gt; from &lt;code class=&quot;language-text&quot;&gt;unittest.mock&lt;/code&gt;. We’ll use this module to mock functions from other module.&lt;/li&gt;
+&lt;li&gt;The simplest way to use &lt;code class=&quot;language-text&quot;&gt;patch&lt;/code&gt; is as a decorator. We’ll decorate our &lt;code class=&quot;language-text&quot;&gt;test_method&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;patch&lt;/code&gt; and use the function/module we want to mock as the decorator argument in string format. We retrieve, via dot notation, the function/module we want to mock from the module where we use them and not where they originally located.&lt;/li&gt;
+&lt;li&gt;We pass the mocked function/module down to our test&lt;em&gt;method as a method argument, by doing so we can use the mocked function/module inside our test&lt;/em&gt;method. Mocking function/module using unittest will replace our function/module with Mock class which has the methods and attributes we can use for mocking. With the example above, we mock the return value of our mocked function using &lt;code class=&quot;language-text&quot;&gt;mocked_function.return_value&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With multiple &lt;code class=&quot;language-text&quot;&gt;patch&lt;/code&gt; decorator, order is very important. Incorrect order will raise an undesirable effects. The top most &lt;code class=&quot;language-text&quot;&gt;patch&lt;/code&gt; decorator will be the last mocked function/module to be pass to the test_method. for example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;@patch(&quot;module.function-nth&quot;)
+@patch(&quot;module.function2&quot;)
+@patch(&quot;module.function1&quot;)
+def test_method(self, 
+                mocked_function1,
+                mocked_function2,
+                mocked_function-nth):
+    # do your test here ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That’s it, with just three steps we’re able to mock a function from other module and continue with our unit test with ease. This is just the tip of the iceberg in regards of mocking in python unittest, I’ll create a separate post for this.&lt;/p&gt;
+&lt;h3 id=&quot;qualities-of-a-good-unit-test&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#qualities-of-a-good-unit-test&quot; aria-label=&quot;qualities of a good unit test permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Qualities of a Good Unit Test&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A unit test method name should be descriptive as much as possible, it can be in a sentence-like format. In this way, unit test function name is much more readable, will make sense, and would look like a business-rule documentation.&lt;/li&gt;
+&lt;li&gt;Unit test should be isolated from one another, they shouldn’t rely or affect other unit tests inside the application.&lt;/li&gt;
+&lt;li&gt;A unit test validate a small piece of code, it should be small and should focus only on that small piece of code.&lt;/li&gt;
+&lt;li&gt;A good unit test should not leave any traces. A unit test should be responsible of cleaning its own test data and connections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;whats-next&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#whats-next&quot; aria-label=&quot;whats next permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What’s Next?&lt;/h3&gt;
+&lt;p&gt;After learning the basic usage of python unittest module, we can start adding tests in our projects and make it a habit. With what we’ve learned on this article, we can do better by exploring these topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Test-driven_development&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Practice Test Driven Development (TDD)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python.org/3.5/library/unittest.mock.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Explore unittest Mock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bitbucket.org/product/features/pipelines&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Setup CI/CD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://coverage.readthedocs.io/en/coverage-4.5.1a/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Measuring your Code Unit Test Coverage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Explore other Testing Tools: &lt;a href=&quot;https://docs.pytest.org/en/latest/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;pytest&lt;/a&gt; and &lt;a href=&quot;https://nose.readthedocs.io/en/latest/testing.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;nose&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#resources&quot; aria-label=&quot;resources permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python.org/3.5/library/unittest.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;unittest — Unit testing framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python-guide.org/writing/tests/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Testing Your Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Improve Your Python: Understanding Unit Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6tNS--WetLI&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python Tutorial: Unit Testing Your Code with the unittest Module&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Sb2tz9Hlbp8&amp;#x26;t=849s&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Andrew Knight | Testing is Fun in Python!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Storing Nested Objects in Redis]]></title><description><![CDATA[One way to optimize your applications is through caching. It helps to minimize database transactions by storing frequently accessed data to memory, which results to fast retrieval of data. I use Redis for caching data, but at the time of this writing Redis does not yet support saving of nested objects. This article will walk you through to a simple solution to save nested objects on Redis efficiently.]]></description><link>https://ryanermita.com/posts/storing-nested-objects-in-redis</link><guid isPermaLink="false">https://ryanermita.com/posts/storing-nested-objects-in-redis</guid><pubDate>Sat, 24 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;One way to optimize your applications is through caching. It helps to minimize database transactions by storing frequently accessed data to memory, which results to fast retrieval of data. I use Redis for caching data, among other things, because it is flexible enough and easy to use. Redis is a key-value store. Meaning you have this unique key to access the stored value. These value can be a string, list, sets, hashes, sorted sets, and bitmaps and hyperloglogs.&lt;/p&gt;
+&lt;p&gt;As an API developer, I work with objects most of the time and it includes caching of these objects. It says in the Redis Data-type documentation that hashes data-type is the perfect fit for caching object-like data.&lt;/p&gt;
+&lt;p&gt;Here’s an example how to cache/retrieve object-like data in Redis using hash data-type.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dict_object = {&quot;firstname&quot;: &quot;John&quot;, &quot;lastname&quot;: &quot;Doe&quot;}
+type(dict_object)  # dict
+
+# cache dict_object as redis hash
+app.redis_connection.hmset(&quot;your_unique_key&quot;, dict_object)
+
+# fetch cached data (hash) from redis 
+cached_data = app.redis_connection.hgetall(&quot;your_unique_key&quot;)
+type(cached_data)  # dict&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But this is fine when you only cache a flat objects or one dimensional objects. Currently Redis hashes doesn’t support nested objects. So what would happen if you try to store nested object as hash in Redis? Lets try:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dict_object = {
+	&quot;name&quot;: &quot;John Doe&quot;,
+	&quot;social_media_accounts&quot;: [&quot;facebook&quot;, &quot;twitter&quot;, &quot;Instagram&quot;],
+	&quot;language_proficiency&quot;: {
+		&quot;Python&quot;: &quot;9/10&quot;, 
+		&quot;Javascript&quot;: &quot;7/10&quot;,
+		&quot;Ruby&quot;: &quot;8/10&quot;
+	}
+}
+
+type(dict_object)  # dict
+type(dict_object[&quot;social_media_accounts&quot;])  # dict
+type(dict_object[&quot;language_proficiency&quot;])  # list
+
+# cache dict_object as redis hash
+app.redis_connection.hmset(&quot;your_unique_key&quot;, dict_object)
+
+# fetch cached data (hash) from redis
+cached_data = app.redis_connection.hgetall(&quot;your_unique_key&quot;) 
+type(cached_data)  # dict
+type(cached_data[&quot;social_media_accounts&quot;])  # string
+type(cached_data[&quot;language_proficiency&quot;])  # string&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you can see, we didn’t get the expected data type of our nested objects . Parsing these nested objects manually would be painful. The better approach here is to cache the object as string. In this way, when we retrieve our data from cache it would be easier to parse it as an object (JSON or dictionary) and we’ll get the expected data-type of each inner objects.&lt;/p&gt;
+&lt;p&gt;Here’s an example how to cache/retrieve object-like data in Redis using string data-type.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dict_object = {
+	&quot;name&quot;: &quot;John Doe&quot;,
+	&quot;social_media_accounts&quot;: [&quot;facebook&quot;, &quot;twitter&quot;, &quot;Instagram&quot;],
+	&quot;language_proficiency&quot;: {
+		&quot;Python&quot;: &quot;9/10&quot;, 
+		&quot;Javascript&quot;: &quot;7/10&quot;,
+		&quot;Ruby&quot;: &quot;8/10&quot;
+	}
+}
+
+# convert your dict object to string
+stringified_dict_obj = json.dumps(dict_object)
+type(stringified_dict_obj)  # str
+
+# cache stringified dict_object
+app.redis_connection.set(&quot;your_unique_key&quot;, stringified_dict_obj)
+
+# fetch cached data (string) from redis
+cached_data = app.redis_connection.get(&quot;your_unique_key&quot;) 
+type(cached_data)  # str
+
+# convert your string cached data to object(dict/JSON)
+cached_data_as_dict = json.loads(cached_data)  
+type(cached_data_as_dict)  # dict
+type(cached_data_as_dict[&quot;social_media_accounts&quot;])  # list
+type(cached_data_as_dict[&quot;language_proficiency&quot;])  # dict&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There are things you need to consider by using this solution for caching nested objects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Storing and retrieving nested object as Hash or String in Redis doesn’t have that much difference in processing time. The big difference here will be at the time you retrieved the data and convert it to object. If you store nested object-like data as Hash you would manually convert each inner object into there respective data-type, while object-like data stored as string is much simpler which is to convert the whole string as object.&lt;/li&gt;
+&lt;li&gt;By storing object-like data as hash, you can get the value of a specific field/key without retrieving the whole object, on the other hand, you can’t do this on the string data-type. You’ll going to retrieve the whole cached data before you get the value that you want.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can checkout this &lt;a href=&quot;https://gist.github.com/ryanermita/6371da82e1e2fd49806148cd3e54b979&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;gist&lt;/a&gt; to play around with redis caching in python. Also I love to know if there are things that I missed regarding this topic, lets talk in the comment section. Happy Coding!&lt;/p&gt;
+&lt;h3 id=&quot;resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#resources&quot; aria-label=&quot;resources permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Resources:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://redis.io/topics/data-types&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Redis data-types&lt;/a&gt;
+-&lt;a href=&quot;http://www.techthings.org/useful-caching-technologies-php-application&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt; Useful Caching Technologies PHP Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://alexandergugel.svbtle.com/storing-relational-data-in-redis&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Storing Relational Data in Redis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[PyConPH 2018 Notes]]></title><description><![CDATA[PyCon is the largest annual gathering for the community using and developing the open-source Python programming language. This year(2018) PyCon will be held in the Philippines. This article will serves as a notes for the sessions I attended during PyCon PH 2018.]]></description><link>https://ryanermita.com/posts/pyconph-2018-notes</link><guid isPermaLink="false">https://ryanermita.com/posts/pyconph-2018-notes</guid><pubDate>Mon, 26 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The highlight of the opening remarks was the PyCon Code of Conduct. This code of conduct aims for the attendees, organizer, sponsors, and volunteer to have an enjoyable and fulfilling PyCon experience. Below is the quoted short version of the PyCon PH Code of Conduct. You can also find the long version of this CoC at the &lt;a href=&quot;https://pycon.python.ph/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PyCon PH 2018 website&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;PyCon PH is a community conference intended for collaboration in the developer community.
+We value the participation of each member of the Python community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference and at all conference events, whether officially sponsored by Python.PH or not.
+To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any PyCon event are required to conform to the following Code of Conduct. Organizers will enforce this code throughout the event. - pycon.python.ph&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;pycon-ph-2018-day-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pycon-ph-2018-day-1&quot; aria-label=&quot;pycon ph 2018 day 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PyCon PH 2018 Day 1&lt;/h2&gt;
+&lt;h3 id=&quot;why-python-in-scientific-research&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-python-in-scientific-research&quot; aria-label=&quot;why python in scientific research permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why Python in Scientific Research?&lt;/h3&gt;
+&lt;p&gt;Speaker: Erika Fille Legara Ph.D., Program Director, Master of Science in Data Science, Asian Institute of Management&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can just write your long c++ code in just 2 lines using python.&lt;/li&gt;
+&lt;li&gt;You can get the results of your computations in minutes rather than hours.&lt;/li&gt;
+&lt;li&gt;There are many available packages or libraries for data computation.&lt;/li&gt;
+&lt;li&gt;The community. Package/library authors are reachable!&lt;/li&gt;
+&lt;li&gt;Python is a dynamically typed language. less worry about declaring variable’s data type.&lt;/li&gt;
+&lt;li&gt;Easy to learn and understand so it can easily use for prototyping.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;here’s the &lt;a href=&quot;https://speakerdeck.com/eflegara/why-python-in-scientific-research&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;link&lt;/a&gt; of her slide deck, &lt;a href=&quot;https://twitter.com/eflegara&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;twitter&lt;/a&gt; and &lt;a href=&quot;https://github.com/eflegara&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;introduction-to-the-natural-language-processing-with-python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introduction-to-the-natural-language-processing-with-python&quot; aria-label=&quot;introduction to the natural language processing with python permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introduction to the Natural Language Processing with Python&lt;/h3&gt;
+&lt;p&gt;Speaker: Albertus Kelvin, A student majoring in Computer Science, Bandung Institute of Technology (ITB)&lt;/p&gt;
+&lt;p&gt;I’m interested on this talk but sadly the speaker wasn’t available&lt;/p&gt;
+&lt;h3 id=&quot;python-and-the-blockchain-revolution&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python-and-the-blockchain-revolution&quot; aria-label=&quot;python and the blockchain revolution permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python and the Blockchain Revolution&lt;/h3&gt;
+&lt;p&gt;Speaker: Johnny Estilles, Engineering Manager, Freelancer.com&lt;/p&gt;
+&lt;p&gt;I’m interested on this talk but sadly the speaker wasn’t available&lt;/p&gt;
+&lt;h3 id=&quot;introduction-to-python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introduction-to-python&quot; aria-label=&quot;introduction to python permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introduction to Python&lt;/h3&gt;
+&lt;p&gt;Speaker: Sony Valdez, Trustee, PythonPH&lt;/p&gt;
+&lt;p&gt;These are the basic python things that I didn’t know before this talk.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;multi line string&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;long_string = &quot;&quot;&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&quot;&quot;&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;end of life of python 2 will be on 2020 — check countdown &lt;a href=&quot;https://pythonclock.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;validate your package or library if it supports python 3 — check it &lt;a href=&quot;https://python3wos.appspot.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;String repetition&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;int * string # will repeat string depends on the int value
+10 * ryan # will repeat ryan 10 times.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;you can use help() on your python console to know more about the python modules.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import json
+help(json) # will show more details and example using this module&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;hello-community&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hello-community&quot; aria-label=&quot;hello community permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hello, Community&lt;/h3&gt;
+&lt;p&gt;Speaker: Al Sweigart, Author of several Python books including Automate the Boring Stuff, InventWithPython.com&lt;/p&gt;
+&lt;p&gt;This is one of my favorite keynote.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“programming is something I capable of doing.” — Al Sweigart&lt;/li&gt;
+&lt;li&gt;The point of pycon is to meet people, here’s his tips on how to meet new people in PyCon (works as well with other conferences)&lt;/li&gt;
+&lt;li&gt;Stand like pacman. Most of the time group of people in conferences talks in circle, so why not leave a little space on your group so people can easily join your circle.&lt;/li&gt;
+&lt;li&gt;Skip talks, again the point of pycon is to meet people.&lt;/li&gt;
+&lt;li&gt;Dont eat alone. Eat together with your new-found friends or with other attendees and discuss things.&lt;/li&gt;
+&lt;li&gt;Skip friends. Time to meet new people, you can catch up with your friends at the end of the event.&lt;/li&gt;
+&lt;li&gt;Print business cards. There should be a way to the people you’ve met to have a way to contact you after the event.&lt;/li&gt;
+&lt;li&gt;Follow up! Contact the people you’ve met after the event.&lt;/li&gt;
+&lt;li&gt;Shirt color trick — an easy way to met new people.&lt;/li&gt;
+&lt;li&gt;Think of a color&lt;/li&gt;
+&lt;li&gt;Find the closest person wearing that color.&lt;/li&gt;
+&lt;li&gt;Talk to that person&lt;/li&gt;
+&lt;li&gt;Instant friend!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;here’s the link of his &lt;a href=&quot;https://twitter.com/AlSweigart&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;twitter&lt;/a&gt; and &lt;a href=&quot;https://github.com/asweigart&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;healthy-python-applying-python-in-healthcare&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#healthy-python-applying-python-in-healthcare&quot; aria-label=&quot;healthy python applying python in healthcare permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Healthy Python: Applying Python in Healthcare&lt;/h3&gt;
+&lt;p&gt;Speaker: Niño Eclarin, Hacarus, Software Engineer&lt;/p&gt;
+&lt;p&gt;Here he introduce the tech problems in healthcare innovation. He gives some tools they’re using in Hacarus in solving those problems.&lt;/p&gt;
+&lt;p&gt;Problems need to solve.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data delivery&lt;/li&gt;
+&lt;li&gt;Data security and data integrity&lt;/li&gt;
+&lt;li&gt;custom tracking and monitoring&lt;/li&gt;
+&lt;li&gt;accessible diagnosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Packages/Library and tools that they use to solve their tech problems&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;flask&lt;/a&gt; - a mircro framework so it is good for prototyping and it can scale!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sqlalchemy-migrate.readthedocs.io/en/latest/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;sqlalchemy&lt;/a&gt; - reliable orm.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ansible.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ansible&lt;/a&gt; — good for deployment automation and other tasks.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;docker&lt;/a&gt; — a container tool, makes deployement easy.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/boto/boto&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;boto&lt;/a&gt; — library interface for AWS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jupyter.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;jupyter&lt;/a&gt; — for data presentation (worth checking out, most of the lightning talks use jupyter in their presentation)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://scikit-learn.org/stable/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;scikit learn&lt;/a&gt;- a machine learning library&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pandas.pydata.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;pandas&lt;/a&gt; — for data analysis&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pandas.pydata.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;plotly&lt;/a&gt; and &lt;a href=&quot;https://matplotlib.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;matplotlib&lt;/a&gt; — visualization library&lt;/li&gt;
+&lt;li&gt;Functional is way faster than object oriented.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pythonhosted.org/itsdangerous/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;itsdangerous&lt;/a&gt; library for data encryption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;here’s the &lt;a href=&quot;https://docs.google.com/presentation/d/1xllPf7TXiddFoTsbJh0EKgmKprRaGj8-D7hpg04930g/edit#slide=id.p&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;link&lt;/a&gt; of his slide deck and &lt;a href=&quot;https://github.com/pprmint&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;write-clean-and-maintainable-code-with-service-objects&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#write-clean-and-maintainable-code-with-service-objects&quot; aria-label=&quot;write clean and maintainable code with service objects permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Write Clean and Maintainable Code with Service Objects&lt;/h3&gt;
+&lt;p&gt;Speaker: Mitchel Cabuloy, Design Director, Kirigami&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mixxorz/django-service-objects&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Use Django Service Objects&lt;/a&gt; to separate your business logic&lt;/p&gt;
+&lt;p&gt;advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;decoupled from model and view logic&lt;/li&gt;
+&lt;li&gt;can be easily tested and maitain&lt;/li&gt;
+&lt;li&gt;can be easily reuse.&lt;/li&gt;
+&lt;li&gt;can chain Service objects call.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;here’s the &lt;a href=&quot;https://mitchel.me/2017/django-service-objects/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;link&lt;/a&gt; of his article about service object, &lt;a href=&quot;https://twitter.com/mixxorz&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;twitter&lt;/a&gt; and &lt;a href=&quot;https://github.com/mixxorz&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;designing-reliable-scalable--secure-data-intensive-python-apps&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#designing-reliable-scalable--secure-data-intensive-python-apps&quot; aria-label=&quot;designing reliable scalable  secure data intensive python apps permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Designing Reliable, Scalable &amp;#x26; Secure Data-Intensive Python Apps&lt;/h3&gt;
+&lt;p&gt;Speaker: Joshua Arvin Lat, Chief Technology Officer (CTO), Complete Business Online&lt;/p&gt;
+&lt;p&gt;Interested in this talk, but I’m already drained to take notes so lets wait for the PyConPH to upload the video of this talk.&lt;/p&gt;
+&lt;h2 id=&quot;pycon-ph-2018-day-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pycon-ph-2018-day-2&quot; aria-label=&quot;pycon ph 2018 day 2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PyCon PH 2018 Day 2&lt;/h2&gt;
+&lt;h3 id=&quot;processing-the-social-web&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#processing-the-social-web&quot; aria-label=&quot;processing the social web permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Processing the Social Web&lt;/h3&gt;
+&lt;p&gt;Speaker: Jezeniel Zapanta, Software Engineer, LenddoEFL
+This workshop focused on using Celery and flask crash course&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.12/patterns/celery/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Celery&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a tool for async tasks and jobs.&lt;/li&gt;
+&lt;li&gt;can be easily set up&lt;/li&gt;
+&lt;li&gt;can chain tasks/jobs&lt;/li&gt;
+&lt;li&gt;use redis or rabbitMQ for queuing jobs/tasks&lt;/li&gt;
+&lt;li&gt;can run multiple workers&lt;/li&gt;
+&lt;li&gt;can be use for periodic tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;here’s the &lt;a href=&quot;http://slides.com/jezenielzapanta/processing-the-social-web#/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;link&lt;/a&gt; of his slide deck about Processing the Social Web, &lt;a href=&quot;https://twitter.com/jezeniel&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;twitter&lt;/a&gt; and &lt;a href=&quot;https://github.com/jezeniel&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;lightning-talks-highlights&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lightning-talks-highlights&quot; aria-label=&quot;lightning talks highlights permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Lightning talks highlights&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;32 mini games developed in just one weekend using pygame&lt;/li&gt;
+&lt;li&gt;a 9 year old kid present how he’s using python in minecraft&lt;/li&gt;
+&lt;li&gt;a project that can read hand symbols using opencv. Discuss a lot of usage of opencv.&lt;/li&gt;
+&lt;li&gt;Most of the lightning talks uses jupyter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Thats all my notes. will be waiting for the uploaded videos of the talks that I missed or missed to note.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Python is a very useful tool, can be use in web development, game development, data science, machine learning, and even for fun. In this PyCon, people showcase their projects and the python libraries they use to solve their tech problems. It’s very apparent that we don’t need to reinvent the wheel, a lot of libraries and packages are all around the web and are ready for us to use. These libraries are flexible enough to address our problems and most of them are open source which means we have the freedom to add new features and optimize them.&lt;/p&gt;
+&lt;p&gt;Python developer around the web are always ready to help and having a reachable library authors saves developers a lot of time debugging codes and even learn whats the idea and rationale of those libraries. Knowing the rationale behind these libraries is a great help for the developers to decide what library or package to use. This programming language is much more powerful because of its community.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Running Raw SQL Queries in Ruby on Rails]]></title><description><![CDATA[Sometimes you have to work with raw SQL in Ruby on Rails(RoR) for the better performance of your application. This article will show you a simple way to run raw SQL queries on RoR.]]></description><link>https://ryanermita.com/posts/running-raw-sql-queries-in-ruby-on-rails</link><guid isPermaLink="false">https://ryanermita.com/posts/running-raw-sql-queries-in-ruby-on-rails</guid><pubDate>Sun, 01 Nov 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Sometimes you have to work with raw SQL in RoR for the better performance of your application. But how would you do it? Here’s a simple example on how to use raw SQL in RoR:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sql = &quot;Select * from table&quot;
+records = ActiveRecord::Base.connection.execute(sql)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;RoR devs, whats your take on this? any comments, suggestions, or ideas regarding raw SQL in RoR? I love to know. Let’s talk in the comment section.&lt;/p&gt;</content:encoded></item></channel></rss>
