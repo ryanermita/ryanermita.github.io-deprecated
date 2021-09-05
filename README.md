@@ -1,0 +1,1 @@
+This is the repository for my [blog's](https://ryanermita.com/). It is build using [GatsbyJs](https://www.gatsbyjs.org/) and a [theme starter pack](https://www.gatsbyjs.com/starters/alxshelepenok/gatsby-starter-lumen) by [Alexander Shelepenok](https://github.com/alxshelepenok).
