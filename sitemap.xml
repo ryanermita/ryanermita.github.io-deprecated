@@ -7,10 +7,10 @@
 <url> <loc>https://ryanermita.com/posts/storing-nested-objects-in-redis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ryanermita.com/posts/unit-testing-with-python-unittest-module</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ryanermita.com/posts/python-autospeccing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ryanermita.com/posts/python-mock-and-magicmock</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ryanermita.com/posts/learning-rabbitmq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ryanermita.com/posts/why-use-text-over-varchar-n</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ryanermita.com/posts/python-mock-and-magicmock</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ryanermita.com/posts/fix-liquibase-duplicate-key-constaints</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ryanermita.com/posts/why-use-text-over-varchar-n</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ryanermita.com/posts/creating-my-own-blog-using-gatsbyjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ryanermita.com/posts/takeaways-from-Google-technical-writing-course</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ryanermita.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
