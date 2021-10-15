@@ -12,7 +12,7 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Software Engineering',
+      label: 'Articles',
       path: '/'
     },
     {
