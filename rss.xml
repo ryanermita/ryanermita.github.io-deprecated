@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ryan Ermita]]></title><description><![CDATA[Human | Software Engineer]]></description><link>https://ryanermita.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 05 Sep 2021 01:37:23 GMT</lastBuildDate><item><title><![CDATA[Takeaways from Google Technical Writing Course]]></title><description><![CDATA[For the past few days, I took the Google technical writing short course. This was suggested by our Head of Engineering at Uploan during our feedback session - as one of the things that I need to improve at given the kind of team I'm involved with and my current position the company. On this artcle I'll be sharing my takeaways from taking the Google technical writing course.]]></description><link>https://ryanermita.com/posts/takeaways-from-Google-technical-writing-course</link><guid isPermaLink="false">https://ryanermita.com/posts/takeaways-from-Google-technical-writing-course</guid><pubDate>Sun, 12 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://developers.google.com/tech-writing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Google Technical Writing Course&lt;/a&gt; consist of beginner-friendly &lt;a href=&quot;https://en.wikipedia.org/wiki/Technical_writing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;technical writing&lt;/a&gt; lessons and exercises provided by Google. This course is a good starting point for anyone who wants to &lt;a href=&quot;https://developers.google.com/tech-writing/overview&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;learn&lt;/a&gt; or &lt;a href=&quot;https://developers.google.com/tech-writing/for-instructors&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;teach&lt;/a&gt; technical writing. For learners, you can take this course for free and in a self-paced manner.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ryan Ermita]]></title><description><![CDATA[Human | Software Engineer]]></description><link>https://ryanermita.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 Oct 2021 02:38:48 GMT</lastBuildDate><item><title><![CDATA[Takeaways from Google Technical Writing Course]]></title><description><![CDATA[For the past few days, I took the Google technical writing short course. This was suggested by our Head of Engineering at Uploan during our feedback session - as one of the things that I need to improve at given the kind of team I'm involved with and my current position the company. On this artcle I'll be sharing my takeaways from taking the Google technical writing course.]]></description><link>https://ryanermita.com/posts/takeaways-from-Google-technical-writing-course</link><guid isPermaLink="false">https://ryanermita.com/posts/takeaways-from-Google-technical-writing-course</guid><pubDate>Sun, 12 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://developers.google.com/tech-writing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Google Technical Writing Course&lt;/a&gt; consist of beginner-friendly &lt;a href=&quot;https://en.wikipedia.org/wiki/Technical_writing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;technical writing&lt;/a&gt; lessons and exercises provided by Google. This course is a good starting point for anyone who wants to &lt;a href=&quot;https://developers.google.com/tech-writing/overview&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;learn&lt;/a&gt; or &lt;a href=&quot;https://developers.google.com/tech-writing/for-instructors&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;teach&lt;/a&gt; technical writing. For learners, you can take this course for free and in a self-paced manner.&lt;/p&gt;
 &lt;p&gt;I took Google Technical Writing Course a week ago. It was a good refresher and it also made me realize my mistakes in my writing, which is a lot. I know I wont be good at technical writing instantly just by taking this course. Because just like any other skills, it will take a lot of practice and mistakes before we became good at it. But taking this course is a good start.&lt;/p&gt;
 &lt;p&gt;The following list identifies my takeaways from taking Google Technical Writing Course:&lt;/p&gt;
 &lt;ul&gt;
@@ -899,4 +899,624 @@ This workshop focused on using Celery and flask crash course&lt;/p&gt;
 &lt;p&gt;Python developer around the web are always ready to help and having a reachable library authors saves developers a lot of time debugging codes and even learn whats the idea and rationale of those libraries. Knowing the rationale behind these libraries is a great help for the developers to decide what library or package to use. This programming language is much more powerful because of its community.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Running Raw SQL Queries in Ruby on Rails]]></title><description><![CDATA[Sometimes you have to work with raw SQL in Ruby on Rails(RoR) for the better performance of your application. This article will show you a simple way to run raw SQL queries on RoR.]]></description><link>https://ryanermita.com/posts/running-raw-sql-queries-in-ruby-on-rails</link><guid isPermaLink="false">https://ryanermita.com/posts/running-raw-sql-queries-in-ruby-on-rails</guid><pubDate>Sun, 01 Nov 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Sometimes you have to work with raw SQL in RoR for the better performance of your application. But how would you do it? Here’s a simple example on how to use raw SQL in RoR:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sql = &quot;Select * from table&quot;
 records = ActiveRecord::Base.connection.execute(sql)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;RoR devs, whats your take on this? any comments, suggestions, or ideas regarding raw SQL in RoR? I love to know. Let’s talk in the comment section.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;RoR devs, whats your take on this? any comments, suggestions, or ideas regarding raw SQL in RoR? I love to know. Let’s talk in the comment section.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mozilla Philippines Community Planning [Education Team]]]></title><description><![CDATA[Last October 24 and 25, Mozilla Philippines Community had an awesome Strategic Planning facilitated by program manager of Mozilla Reps program and Mozilla Reps council member Rosana Ardila. We had a fun and very informative sessions. We discussed things like: Things that are valued by the community members, conflict resolution points, community and volunteers growth, and plans of each functional areas in the next few months. In this post I will share the plans of Mozilla Philippines Education Team in the next 6 months.]]></description><link>https://ryanermita.com/posts/mozilla-philippines-community-planning-education-team</link><guid isPermaLink="false">https://ryanermita.com/posts/mozilla-philippines-community-planning-education-team</guid><pubDate>Sat, 31 Oct 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last October 24 and 25, &lt;a href=&quot;http://www.mozillaphilippines.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mozilla Philippines Community&lt;/a&gt; had an awesome Strategic Planning facilitated by program manager of &lt;a href=&quot;https://reps.mozilla.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mozilla Reps&lt;/a&gt; program and Mozilla Reps council member &lt;a href=&quot;https://reps.mozilla.org/u/rardila/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Rosana Ardila&lt;/a&gt;. We had a fun and very informative sessions. We discussed things like: Things that are valued by the community members, conflict resolution points, community and volunteers growth, and plans of each functional areas in the next few months. In this post I will share the plans of Mozilla Philippines Education Team in the next 6 months.&lt;/p&gt;
+&lt;p&gt;To make sure we are on the right track, we use test cards in our planning session. After listing the things we want to do in the Education Team, we came up to focus on these three areas: Local Curriculum, Marketing, and partnerships. Here are the test cards:&lt;/p&gt;
+&lt;h3 id=&quot;mozilla-community-education-team-local-curriculum&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mozilla-community-education-team-local-curriculum&quot; aria-label=&quot;mozilla community education team local curriculum permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mozilla Community Education Team Local Curriculum&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Hypothesis&lt;/strong&gt;: We believe that making a Mozilla learning curriculum customized for the Philippine setting will make it easy for locals to learn and teach Web; and make locals care about their online lives.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Test&lt;/strong&gt;: To verify that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We will create a local curriculum with the help of professionals consisting of the ff:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML, CSS, and JavaScript for beginners, intermediate, and advanced level.&lt;/li&gt;
+&lt;li&gt;Security and Privacy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Have an archive of local curriculum and courses for each level:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;beginner&lt;/li&gt;
+&lt;li&gt;intermediate&lt;/li&gt;
+&lt;li&gt;ninja&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Metric&lt;/strong&gt;: And measure the # of makes and evaluate the curriculum through surveys/ questionnaires/ feedback.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Criteria&lt;/strong&gt;: We are right if there are learners went on another level and we have an archive of effective curriculum in each level.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Needs&lt;/strong&gt;: passionate web literacy mentors and partnerships with other educational related organization.&lt;/p&gt;
+&lt;h3 id=&quot;mozilla-community-education-team-marketing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mozilla-community-education-team-marketing&quot; aria-label=&quot;mozilla community education team marketing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mozilla Community Education Team Marketing&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Hypothesis&lt;/strong&gt;: We believe that establishing online presence of Mozilla Learning Initiatives by posting or sharing on social media to reach out possible web literacy mentors.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Test&lt;/strong&gt;: To verify that, we will try posting on some educational-related groups about the program.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Metric&lt;/strong&gt;: And measure the responses, events, mentors and partners&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Criteria&lt;/strong&gt;: We are right if we can get more events partners, and mentors for the program.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Needs&lt;/strong&gt;: Social media training of MozPH volunteers&lt;/p&gt;
+&lt;h3 id=&quot;mozilla-community-education-team-partnerships&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mozilla-community-education-team-partnerships&quot; aria-label=&quot;mozilla community education team partnerships permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mozilla Community Education Team Partnerships&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Hypothesis&lt;/strong&gt;: We believe that forming meaningful partnerships with relevant organizations will enable us to improve Web literacy in the Philippines by helping us reach untapped markets and have more resources&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Test&lt;/strong&gt;: To verify that we will connect with the Dept. of Education to propose an initiative that could help them with the implementation of grades 11 &amp;#x26; 12 (i.e. tools, community support)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Metric&lt;/strong&gt;: And measure the number of schools/ teachers who actually implemented compared to the number of schools/ teachers that we presented the tools to.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Criteria&lt;/strong&gt;: We are right if the number of schools/ teachers who implemented it/ continued using it after an academic year is at least 90% of the population that we presented to.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Needs&lt;/strong&gt;: Support from HQ (representative to talk to DepEd), training of MozPH volunteers talking to partners, funds (travel etc)&lt;/p&gt;
+&lt;p&gt;*People involved in education team planning: Ryan Ermita, Faye Tandog, Gio Legasto, Fate Cabag, Angelo Bautista, and Janine Bagares.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MozTour and Firefox OS Workshop at MCU]]></title><description><![CDATA[It was a successful whole day event for Mozilla Philippines Community at Manila Central University! The first part of the event was the MozTour. Here we discussed the overview of Mozilla, Firefox Student Ambassador, and the overview of Mozilla Learning. The topics was discussed by Faye Tandog, Joshua Rubin, and Ryan Ermita, respectively.]]></description><link>https://ryanermita.com/posts/moztour-and-firefox-os-workshop-at-mcu</link><guid isPermaLink="false">https://ryanermita.com/posts/moztour-and-firefox-os-workshop-at-mcu</guid><pubDate>Tue, 07 Jul 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It was a successful whole day event for &lt;a href=&quot;http://www.mozillaphilippines.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mozilla Philippines Community&lt;/a&gt; at Manila Central University! The first part of the event was the MozTour. Here we discussed the overview of &lt;a href=&quot;https://www.mozilla.org/en-US/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mozilla&lt;/a&gt;, &lt;a href=&quot;https://www.mozilla.org/en-US/contribute/studentambassadors/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Firefox Student Ambassador&lt;/a&gt;, and the overview of &lt;a href=&quot;https://teach.mozilla.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mozilla Learning&lt;/a&gt;. The topics was discussed by &lt;a href=&quot;https://twitter.com/fayetandog&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Faye Tandog&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/oshrubin&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Joshua Rubin&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/ryanermita&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ryan Ermita&lt;/a&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/eacaae8acfb68b42914145878f93133d/6a068/moztour-mcu-1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABid2kzi0D/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQACAxIhIv/aAAgBAQABBQKJoJkZuKvZbVVBX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAECAQE/AUf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASERIkFRYf/aAAgBAQAGPwLmyyTI0VTJR//EABwQAAMAAgMBAAAAAAAAAAAAAAABESFxUWGB4f/aAAgBAQABPyFEdvkYyXsOPhmVDSXBJRdiStHtn//aAAwDAQACAAMAAAAQCP8A/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAx/9oACAEDAQE/EDV//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Qqn//xAAeEAEAAwACAgMAAAAAAAAAAAABABEhQYExUWHB4f/aAAgBAQABPxB+PYwi/XUC8W8BfuYLHeiMMdRGuF/OQ+wSZvu8/pP/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/eacaae8acfb68b42914145878f93133d/8ac56/moztour-mcu-1.webp 240w,
+/static/eacaae8acfb68b42914145878f93133d/d3be9/moztour-mcu-1.webp 480w,
+/static/eacaae8acfb68b42914145878f93133d/e46b2/moztour-mcu-1.webp 960w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/eacaae8acfb68b42914145878f93133d/09b79/moztour-mcu-1.jpg 240w,
+/static/eacaae8acfb68b42914145878f93133d/7cc5e/moztour-mcu-1.jpg 480w,
+/static/eacaae8acfb68b42914145878f93133d/6a068/moztour-mcu-1.jpg 960w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/eacaae8acfb68b42914145878f93133d/6a068/moztour-mcu-1.jpg&quot;
+            alt=&quot;photo from Karol Pedrosa&quot;
+            title=&quot;photo from Karol Pedrosa&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6adb3d9d6ab61285945872e5848c83c1/6a068/moztour-mcu-2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAVS3nRqJD//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhIRIv/aAAgBAQABBQJyWlnBa83T4f/EABURAQEAAAAAAAAAAAAAAAAAABBh/9oACAEDAQE/Aaf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAGRAAAgMBAAAAAAAAAAAAAAAAEBEAAjFB/9oACAEBAAY/AtlV0of/xAAaEAACAwEBAAAAAAAAAAAAAAAAEQEhMRBR/9oACAEBAAE/IZGsjdLS4iejQV4OUf/aAAwDAQACAAMAAAAQnB//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QDSbf/8QAFxEBAAMAAAAAAAAAAAAAAAAAABEhMf/aAAgBAgEBPxCsQf/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESFBMVGRocH/2gAIAQEAAT8QNTQadwPVGuLtPkDoh1AJx5hSKmkBjDCo3yD6n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/6adb3d9d6ab61285945872e5848c83c1/8ac56/moztour-mcu-2.webp 240w,
+/static/6adb3d9d6ab61285945872e5848c83c1/d3be9/moztour-mcu-2.webp 480w,
+/static/6adb3d9d6ab61285945872e5848c83c1/e46b2/moztour-mcu-2.webp 960w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/6adb3d9d6ab61285945872e5848c83c1/09b79/moztour-mcu-2.jpg 240w,
+/static/6adb3d9d6ab61285945872e5848c83c1/7cc5e/moztour-mcu-2.jpg 480w,
+/static/6adb3d9d6ab61285945872e5848c83c1/6a068/moztour-mcu-2.jpg 960w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/6adb3d9d6ab61285945872e5848c83c1/6a068/moztour-mcu-2.jpg&quot;
+            alt=&quot;photo from Karol Pedrosa&quot;
+            title=&quot;photo from Karol Pedrosa&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a7e052cf2d0bb4837033aae11dcdd626/6a068/moztour-mcu-3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGTdVCY6YP/xAAaEAEBAAMBAQAAAAAAAAAAAAABAgMSIQAR/9oACAEBAAEFAoO5dDGd8zqo/Jug/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHhAAAgAGAwAAAAAAAAAAAAAAAAECEBEhIjEyQVH/2gAIAQEABj8C9XZjuTUNUcix/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFhUYH/2gAIAQEAAT8hHg28hQnmYLpfkFuGLzubxMrTon//2gAMAwEAAgADAAAAEDTf/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EE2f/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EBLS/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARIUFRYTH/2gAIAQEAAT8QfbUGGPqcel8e7CDYcomawRtayXfkVUrplfprQE//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/a7e052cf2d0bb4837033aae11dcdd626/8ac56/moztour-mcu-3.webp 240w,
+/static/a7e052cf2d0bb4837033aae11dcdd626/d3be9/moztour-mcu-3.webp 480w,
+/static/a7e052cf2d0bb4837033aae11dcdd626/e46b2/moztour-mcu-3.webp 960w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/a7e052cf2d0bb4837033aae11dcdd626/09b79/moztour-mcu-3.jpg 240w,
+/static/a7e052cf2d0bb4837033aae11dcdd626/7cc5e/moztour-mcu-3.jpg 480w,
+/static/a7e052cf2d0bb4837033aae11dcdd626/6a068/moztour-mcu-3.jpg 960w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/a7e052cf2d0bb4837033aae11dcdd626/6a068/moztour-mcu-3.jpg&quot;
+            alt=&quot;photo from Karol Pedrosa&quot;
+            title=&quot;photo from Karol Pedrosa&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I facilitated the second part of the event which is the &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/os/2.0/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Firefox OS&lt;/a&gt; workshop. After discussing the overview of the mobile OS and did some demonstration on how to create a Firefox OS app, we let the attendees to experiment and create their own app. It was a fun and full of learning activity. The awesome part is some of the attendees are just starting to learn the core web technologies(HTML, CSS, and Javascript) and they did create their own app in just a matter of at least two hours!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5ea699bcc47a4fdd4af74bafbf214422/6a068/moztour-mcu-4.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABV+HApEgl/8QAGhABAAIDAQAAAAAAAAAAAAAAAgEEAAMRMf/aAAgBAQABBQKbOPYuGxBiwYLXnc//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgMBAQAAAAAAAAAAAAAAAREAISIQEv/aAAgBAQAGPwJKemQJo3MhV3//xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhMWH/2gAIAQEAAT8hbKN9lGOFnINFeuSvgNxIAWqJaf/aAAwDAQACAAMAAAAQw/8A/8QAFREBAQAAAAAAAAAAAAAAAAAAEDH/2gAIAQMBAT8Qo//EABcRAQADAAAAAAAAAAAAAAAAAAABETH/2gAIAQIBAT8QxcP/xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhMUFRcYH/2gAIAQEAAT8QUTdGnTEOjKY/bdPvEhS1Tq6wPxRB35wHiqXXA4Ibc//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/5ea699bcc47a4fdd4af74bafbf214422/8ac56/moztour-mcu-4.webp 240w,
+/static/5ea699bcc47a4fdd4af74bafbf214422/d3be9/moztour-mcu-4.webp 480w,
+/static/5ea699bcc47a4fdd4af74bafbf214422/e46b2/moztour-mcu-4.webp 960w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/5ea699bcc47a4fdd4af74bafbf214422/09b79/moztour-mcu-4.jpg 240w,
+/static/5ea699bcc47a4fdd4af74bafbf214422/7cc5e/moztour-mcu-4.jpg 480w,
+/static/5ea699bcc47a4fdd4af74bafbf214422/6a068/moztour-mcu-4.jpg 960w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/5ea699bcc47a4fdd4af74bafbf214422/6a068/moztour-mcu-4.jpg&quot;
+            alt=&quot;photo from Karol Pedrosa&quot;
+            title=&quot;photo from Karol Pedrosa&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4a338e8b73dc4a04b7de3189317fa41b/6a068/moztour-mcu-5.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIFAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFtmpFAmi//xAAbEAACAgMBAAAAAAAAAAAAAAABAgAEERQiQv/aAAgBAQABBQLYKsLGIbE9seWn/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIBBQAAAAAAAAAAAAAAAAABEQIQIUFx/9oACAEBAAY/Aobk0ZSKUPtv/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAITFBUXH/2gAIAQEAAT8h5cfeqtF6yrXOAfFuVx4pPW//2gAMAwEAAgADAAAAEMwP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/ENhH/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QWf/EAB0QAQEAAgMAAwAAAAAAAAAAAAERACExQVFhcYH/2gAIAQEAAT8QN0UkRBeP3LyPdItfDK4Ldsh5jAPiNde5SXocfea7Qlz/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/4a338e8b73dc4a04b7de3189317fa41b/8ac56/moztour-mcu-5.webp 240w,
+/static/4a338e8b73dc4a04b7de3189317fa41b/d3be9/moztour-mcu-5.webp 480w,
+/static/4a338e8b73dc4a04b7de3189317fa41b/e46b2/moztour-mcu-5.webp 960w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/4a338e8b73dc4a04b7de3189317fa41b/09b79/moztour-mcu-5.jpg 240w,
+/static/4a338e8b73dc4a04b7de3189317fa41b/7cc5e/moztour-mcu-5.jpg 480w,
+/static/4a338e8b73dc4a04b7de3189317fa41b/6a068/moztour-mcu-5.jpg 960w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/4a338e8b73dc4a04b7de3189317fa41b/6a068/moztour-mcu-5.jpg&quot;
+            alt=&quot;photo from Karol Pedrosa&quot;
+            title=&quot;photo from Karol Pedrosa&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This event won’t be successful without the help of the MCU faculty, Karol Pedrosa, and the Mozilla Philippines Community Team: Faye Tandog, Joshua Rubin, and &lt;a href=&quot;https://twitter.com/kdverbo&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Tina Verbo&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gordon College CCS Mozilla Maker Party]]></title><description><![CDATA[Last July 26, the Mozilla Philippines Community traveled all the way to Olongapo City, a then-US Naval Base city 84 miles away from Manila, to have an awesome Maker Party with students of Gordon College. With me in our team are Mozilla Reps Tina Verbo, Faye Tandog, Kemuel Domanog, Aaron Cajes, Firefox Student Ambassador Marcus Ang, and new MozPH volunteers CK Luna, Red Prudente, Roger Duran, Mikko De Vera, and Jeff Soriano. This event is the first time that we have included Firefox OS in our Maker Party, which made it really challenging on our part but thanks to these volunteers who came with us, we managed to make the event a huge success.]]></description><link>https://ryanermita.com/posts/gordon-college-ccs-mozilla-maker-party</link><guid isPermaLink="false">https://ryanermita.com/posts/gordon-college-ccs-mozilla-maker-party</guid><pubDate>Wed, 30 Jul 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last July 26, the Mozilla Philippines Community traveled all the way to Olongapo City, a then-US Naval Base city 84 miles away from Manila, to have an awesome Maker Party with students of &lt;a href=&quot;http://gordoncollegeccs.edu.ph/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Gordon College&lt;/a&gt;. With me in our team are &lt;a href=&quot;https://reps.mozilla.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mozilla Reps&lt;/a&gt; Tina Verbo, Faye Tandog, Kemuel Domanog, Aaron Cajes, &lt;a href=&quot;https://www.mozilla.org/en-US/contribute/studentambassadors/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Firefox Student Ambassador&lt;/a&gt; Marcus Ang, and new MozPH volunteers CK Luna, Red Prudente, Roger Duran, Mikko De Vera, and Jeff Soriano. This event is the first time that we have included &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/os/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Firefox OS&lt;/a&gt; in our &lt;a href=&quot;http://party.webmaker.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Maker Party&lt;/a&gt;, which made it really challenging on our part but thanks to these volunteers who came with us, we managed to make the event a huge success.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b6a452063a24ee821366fab8ddb35ddf/b4294/gordon-ccs-moztour-1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFDM0TcRQIf/8QAHRAAAQIHAAAAAAAAAAAAAAAAAAECAxASEyEiMv/aAAgBAQABBQJnO0kh4oLSH//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFlf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwFsf//EABgQAQADAQAAAAAAAAAAAAAAAAABETEh/9oACAEBAAY/AuSq5t1rWv/EABwQAAICAgMAAAAAAAAAAAAAAAABETEhkUFhcf/aAAgBAQABPyFlQ8HduhBMUyJVgtC2NT5H/9oADAMBAAIAAwAAABCM3//EABcRAAMBAAAAAAAAAAAAAAAAAAABETH/2gAIAQMBAT8QWSDL/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREQ/9oACAECAQE/EFLcv//EAB0QAQEAAwACAwAAAAAAAAAAAAERACExQZFRYaH/2gAIAQEAAT8QOIlGSEby+8UzFeOtfmHBPQwmBCzXTNtGQHW/svz4xQKVtTP/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/b6a452063a24ee821366fab8ddb35ddf/8ac56/gordon-ccs-moztour-1.webp 240w,
+/static/b6a452063a24ee821366fab8ddb35ddf/d3be9/gordon-ccs-moztour-1.webp 480w,
+/static/b6a452063a24ee821366fab8ddb35ddf/e88ff/gordon-ccs-moztour-1.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/b6a452063a24ee821366fab8ddb35ddf/09b79/gordon-ccs-moztour-1.jpg 240w,
+/static/b6a452063a24ee821366fab8ddb35ddf/7cc5e/gordon-ccs-moztour-1.jpg 480w,
+/static/b6a452063a24ee821366fab8ddb35ddf/b4294/gordon-ccs-moztour-1.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/b6a452063a24ee821366fab8ddb35ddf/b4294/gordon-ccs-moztour-1.jpg&quot;
+            alt=&quot;Group Photo&quot;
+            title=&quot;Group Photo&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The event formally started as Faye Tandog, Mozilla Philippines Community Manager, oriented the attendees about Mozilla and what we are doing to protect the open web. After she discussed the Webmaker project, I did a demonstration of Webmaker tools and got amazed reactions from the attendees, especially on  Appmaker. I showed them how simple it is to create an open web app that they can easily share and install to any Firefox OS phones and Android phones with Firefox browser. As the audience already have knowledge on building web apps, Aaron Cajes showcased Firefox OS before the end of the session. We were also surprised that they will use Firefox OS as a platform for their thesis!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/92cfcb0c9c9f46b87172be55a80f70e5/b4294/gordon-ccs-moztour-2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAZfzbNnFA//EABoQAAIDAQEAAAAAAAAAAAAAAAIDARESIRP/2gAIAQEAAQUCnjMCxTOGw52OvKbv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oACAEDAQE/AZGn/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQASIf/aAAgBAgEBPwFNdLDf/8QAGhAAAgIDAAAAAAAAAAAAAAAAABEBEjFRYf/aAAgBAQAGPwKRiHwd5WjJ/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITFB/9oACAEBAAE/IVWOEautOw2DyYs7xKWADDWrM//aAAwDAQACAAMAAAAQNA//xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhMf/aAAgBAwEBPxCst90g/8QAGBEAAwEBAAAAAAAAAAAAAAAAABExAUH/2gAIAQIBAT8QgIsF8P/EABsQAQADAQEBAQAAAAAAAAAAAAEAESFBMeHw/9oACAEBAAE/ELiKXdrCYazxWI/IOwOmWhCotp+yLy/V1fdjRZupP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/92cfcb0c9c9f46b87172be55a80f70e5/8ac56/gordon-ccs-moztour-2.webp 240w,
+/static/92cfcb0c9c9f46b87172be55a80f70e5/d3be9/gordon-ccs-moztour-2.webp 480w,
+/static/92cfcb0c9c9f46b87172be55a80f70e5/e88ff/gordon-ccs-moztour-2.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/92cfcb0c9c9f46b87172be55a80f70e5/09b79/gordon-ccs-moztour-2.jpg 240w,
+/static/92cfcb0c9c9f46b87172be55a80f70e5/7cc5e/gordon-ccs-moztour-2.jpg 480w,
+/static/92cfcb0c9c9f46b87172be55a80f70e5/b4294/gordon-ccs-moztour-2.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/92cfcb0c9c9f46b87172be55a80f70e5/b4294/gordon-ccs-moztour-2.jpg&quot;
+            alt=&quot;gordon ccs moztour 2&quot;
+            title=&quot;gordon ccs moztour 2&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b02056d5e15be6c2a3eb04e258c4df7c/b4294/gordon-ccs-moztour-3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABTey7kkUF/8QAGRABAQEAAwAAAAAAAAAAAAAAAgMBESIy/9oACAEBAAEFAt9RmazU8KS7hIx1rn//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGH/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAESIf/aAAgBAgEBPwF6Sz//xAAZEAADAAMAAAAAAAAAAAAAAAAAAREQIjH/2gAIAQEABj8CZaTGrh0//8QAGhABAAMAAwAAAAAAAAAAAAAAAQARIUFRYf/aAAgBAQABPyHJcE0V1RHBWjIxbyXJbOxaVs//2gAMAwEAAgADAAAAEH/P/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxClpT//xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhYf/aAAgBAgEBPxCDUjI//8QAHBABAAICAwEAAAAAAAAAAAAAAQARIUExUWGR/9oACAEBAAE/EECqkJZ0QyyW0g1E01pdajImNfkLDFQBm/YmMXln/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/b02056d5e15be6c2a3eb04e258c4df7c/8ac56/gordon-ccs-moztour-3.webp 240w,
+/static/b02056d5e15be6c2a3eb04e258c4df7c/d3be9/gordon-ccs-moztour-3.webp 480w,
+/static/b02056d5e15be6c2a3eb04e258c4df7c/e88ff/gordon-ccs-moztour-3.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/b02056d5e15be6c2a3eb04e258c4df7c/09b79/gordon-ccs-moztour-3.jpg 240w,
+/static/b02056d5e15be6c2a3eb04e258c4df7c/7cc5e/gordon-ccs-moztour-3.jpg 480w,
+/static/b02056d5e15be6c2a3eb04e258c4df7c/b4294/gordon-ccs-moztour-3.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/b02056d5e15be6c2a3eb04e258c4df7c/b4294/gordon-ccs-moztour-3.jpg&quot;
+            alt=&quot;gordon ccs moztour 3&quot;
+            title=&quot;gordon ccs moztour 3&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c54b1fe87afe15f95db3b834ba87c84d/b4294/gordon-ccs-moztour-4.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAHXkpItRYZv/8QAGxABAAICAwAAAAAAAAAAAAAAAgABBBIREyH/2gAIAQEAAQUCy1qLVqGgjd+9nJ3U/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERE1H/2gAIAQMBAT8BlFi0/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oACAECAQE/AYy//8QAHBAAAgMBAAMAAAAAAAAAAAAAAAIBESFRMXGB/9oACAEBAAY/AlVTHavHwimsjhsZwya9H//EABsQAQADAQADAAAAAAAAAAAAAAEAESFBMWGB/9oACAEBAAE/IbBiLq8m+oaWGJ8eTsrxtcWFgC3xPVTKwT//2gAMAwEAAgADAAAAENMP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQARQf/aAAgBAwEBPxAal2U6n//EABkRAAEFAAAAAAAAAAAAAAAAAAABESExUf/aAAgBAgEBPxCNDsQ//8QAHBABAAICAwEAAAAAAAAAAAAAAREhAEExUWGh/9oACAEBAAE/EEnwEaR4+5PiOEXhb7v5h5CiQC2xFYMp7EdzziqIEhQvrJVFrKyM/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/c54b1fe87afe15f95db3b834ba87c84d/8ac56/gordon-ccs-moztour-4.webp 240w,
+/static/c54b1fe87afe15f95db3b834ba87c84d/d3be9/gordon-ccs-moztour-4.webp 480w,
+/static/c54b1fe87afe15f95db3b834ba87c84d/e88ff/gordon-ccs-moztour-4.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/c54b1fe87afe15f95db3b834ba87c84d/09b79/gordon-ccs-moztour-4.jpg 240w,
+/static/c54b1fe87afe15f95db3b834ba87c84d/7cc5e/gordon-ccs-moztour-4.jpg 480w,
+/static/c54b1fe87afe15f95db3b834ba87c84d/b4294/gordon-ccs-moztour-4.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/c54b1fe87afe15f95db3b834ba87c84d/b4294/gordon-ccs-moztour-4.jpg&quot;
+            alt=&quot;gordon ccs moztour 4&quot;
+            title=&quot;gordon ccs moztour 4&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;On our second session, Aaron continued his discussion about Firefox OS and talked about Web APIs. As the students were having their hands-on– installing Firefox, installing the Firefox OS simulator, and testing their apps in the simulator– Aaron discussed every important codes that will help the participants. Some attendees encountered some problems on this part of the Maker Party, but with the aid of our mentors they solved each problem instantly.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4562a9f7e2fa487d08bfd6346e0d420b/b4294/gordon-ccs-moztour-5.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIFBP/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABXbBSy2Swr//EABsQAAEFAQEAAAAAAAAAAAAAABEAAQIDEhMh/9oACAEBAAEFAmEFTl6rOeioeyAX/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAIR/9oACAEDAQE/AZZT/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEhUf/aAAgBAgEBPwGdU//EABoQAAIDAQEAAAAAAAAAAAAAAAABESExAhD/2gAIAQEABj8C6lYJlx5Fmn//xAAaEAADAQEBAQAAAAAAAAAAAAAAASERUUFx/9oACAEBAAE/IW0wVnlG0TofS9iUGat1xjlrOH//2gAMAwEAAgADAAAAEOc//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAhMf/aAAgBAwEBPxBPIfQy/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARMf/aAAgBAgEBPxCThP/EABwQAQEAAgIDAAAAAAAAAAAAAAERACExQWGBsf/aAAgBAQABPxBYixQBow3iv9DszvnEc+CL0xTQDaBfuOMhpwh6x4Ioa9eM/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/4562a9f7e2fa487d08bfd6346e0d420b/8ac56/gordon-ccs-moztour-5.webp 240w,
+/static/4562a9f7e2fa487d08bfd6346e0d420b/d3be9/gordon-ccs-moztour-5.webp 480w,
+/static/4562a9f7e2fa487d08bfd6346e0d420b/e88ff/gordon-ccs-moztour-5.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/4562a9f7e2fa487d08bfd6346e0d420b/09b79/gordon-ccs-moztour-5.jpg 240w,
+/static/4562a9f7e2fa487d08bfd6346e0d420b/7cc5e/gordon-ccs-moztour-5.jpg 480w,
+/static/4562a9f7e2fa487d08bfd6346e0d420b/b4294/gordon-ccs-moztour-5.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/4562a9f7e2fa487d08bfd6346e0d420b/b4294/gordon-ccs-moztour-5.jpg&quot;
+            alt=&quot;gordon ccs moztour 5&quot;
+            title=&quot;gordon ccs moztour 5&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/832b93f71717779636ba41b46e8a1074/b4294/gordon-ccs-moztour-6.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAUaswW4iOf/EABsQAAMAAgMAAAAAAAAAAAAAAAECEgADESEx/9oACAEBAAEFAo6Hj7WBlWxuBkW3/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESUf/aAAgBAwEBPwFSdf/EABYRAQEBAAAAAAAAAAAAAAAAAAABEv/aAAgBAgEBPwFqP//EABwQAAICAgMAAAAAAAAAAAAAAAARARICMRAyQf/aAAgBAQAGPwJstG8dndcVTJl+n//EABsQAQACAgMAAAAAAAAAAAAAAAEAESFhMUFR/9oACAEBAAE/IVLWBVbiA6h1KaKhGoUgHsAmBuLSrkcT/9oADAMBAAIAAwAAABDD7//EABcRAQEBAQAAAAAAAAAAAAAAAAERADH/2gAIAQMBAT8QUCanFN//xAAWEQADAAAAAAAAAAAAAAAAAAAAAVH/2gAIAQIBAT8QVKI//8QAHhABAAICAgMBAAAAAAAAAAAAAQARITFBcVGBkcH/2gAIAQEAAT8Qzh8Grzv0RhUbR2H8mG1LCtpbvucY2hrGporar+VGHrAPDXM//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/832b93f71717779636ba41b46e8a1074/8ac56/gordon-ccs-moztour-6.webp 240w,
+/static/832b93f71717779636ba41b46e8a1074/d3be9/gordon-ccs-moztour-6.webp 480w,
+/static/832b93f71717779636ba41b46e8a1074/e88ff/gordon-ccs-moztour-6.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/832b93f71717779636ba41b46e8a1074/09b79/gordon-ccs-moztour-6.jpg 240w,
+/static/832b93f71717779636ba41b46e8a1074/7cc5e/gordon-ccs-moztour-6.jpg 480w,
+/static/832b93f71717779636ba41b46e8a1074/b4294/gordon-ccs-moztour-6.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/832b93f71717779636ba41b46e8a1074/b4294/gordon-ccs-moztour-6.jpg&quot;
+            alt=&quot;gordon ccs moztour 6&quot;
+            title=&quot;gordon ccs moztour 6&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;After the long discussion about Firefox OS, students presented their pre-made apps, and we loved each of their ideas. We were really amazed that in that early age they managed to develop useful and intelligent apps. Some of those apps are:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/893808b7ec2968e2689c3f3b435569f6/b4294/gordon-ccs-moztour-7.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgMG/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAYss2joBKH//xAAaEAEBAAIDAAAAAAAAAAAAAAACAQASAxMU/9oACAEBAAEFAluUD2LSZVYpzI56Hn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAQUBAAAAAAAAAAAAAAAAATEQESEiYUH/2gAIAQEABj8ChPps+kDz6Xp//8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERITFRYf/aAAgBAQABPyF4kglYZNo0uBMT9t16NoleFOj/2gAMAwEAAgADAAAAEMfP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QJ//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxBMn//EABwQAQEAAgIDAAAAAAAAAAAAAAERACFBUYGh8P/aAAgBAQABPxBhc1VvgmBOodDbqYDAHnG9THpD1hGdB64+cmt9s//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/893808b7ec2968e2689c3f3b435569f6/8ac56/gordon-ccs-moztour-7.webp 240w,
+/static/893808b7ec2968e2689c3f3b435569f6/d3be9/gordon-ccs-moztour-7.webp 480w,
+/static/893808b7ec2968e2689c3f3b435569f6/e88ff/gordon-ccs-moztour-7.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/893808b7ec2968e2689c3f3b435569f6/09b79/gordon-ccs-moztour-7.jpg 240w,
+/static/893808b7ec2968e2689c3f3b435569f6/7cc5e/gordon-ccs-moztour-7.jpg 480w,
+/static/893808b7ec2968e2689c3f3b435569f6/b4294/gordon-ccs-moztour-7.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/893808b7ec2968e2689c3f3b435569f6/b4294/gordon-ccs-moztour-7.jpg&quot;
+            alt=&quot;gordon ccs moztour 7&quot;
+            title=&quot;gordon ccs moztour 7&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;em&gt;Track our BMI using this BMI Calculator App.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bb5543c6e657c5e8f60a1bfb62ab9f98/b4294/gordon-ccs-moztour-8.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABjcp1w7FQf//EABoQAQACAwEAAAAAAAAAAAAAAAIAAQMSExH/2gAIAQEAAQUC3XuM9VpUKuHLYXe5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BZ//EABsQAAICAwEAAAAAAAAAAAAAAAARATEQISKB/9oACAEBAAY/Aq9OpaxEPTKso//EABkQAQEBAQEBAAAAAAAAAAAAAAERAEExgf/aAAgBAQABPyEFiAGGfZw5p8wWh4aBKrNvO//aAAwDAQACAAMAAAAQFN//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAWf//EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQIBAT8QTIQ//8QAHBABAAIDAAMAAAAAAAAAAAAAAQARITFhQXGB/9oACAEBAAE/EK9XA3b5i5ENNqfXJXAGIvSLCcdlYm1bqiEpf9n/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/bb5543c6e657c5e8f60a1bfb62ab9f98/8ac56/gordon-ccs-moztour-8.webp 240w,
+/static/bb5543c6e657c5e8f60a1bfb62ab9f98/d3be9/gordon-ccs-moztour-8.webp 480w,
+/static/bb5543c6e657c5e8f60a1bfb62ab9f98/e88ff/gordon-ccs-moztour-8.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/bb5543c6e657c5e8f60a1bfb62ab9f98/09b79/gordon-ccs-moztour-8.jpg 240w,
+/static/bb5543c6e657c5e8f60a1bfb62ab9f98/7cc5e/gordon-ccs-moztour-8.jpg 480w,
+/static/bb5543c6e657c5e8f60a1bfb62ab9f98/b4294/gordon-ccs-moztour-8.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/bb5543c6e657c5e8f60a1bfb62ab9f98/b4294/gordon-ccs-moztour-8.jpg&quot;
+            alt=&quot;gordon ccs moztour 8&quot;
+            title=&quot;gordon ccs moztour 8&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;em&gt;This app will help delivery personnel to deliver their goods in the right way.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/40e297d644091c9eecbf40fa3fb21e08/b4294/gordon-ccs-moztour-9.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABWbS3lukkj//EABkQAQEAAwEAAAAAAAAAAAAAAAECAAMSEf/aAAgBAQABBQKSk0wKHmdvM7mV31n/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAMQIQImFx/9oACAEBAAY/AsjaqPROv//EABoQAQADAQEBAAAAAAAAAAAAAAEAESFBMVH/2gAIAQEAAT8hA27WMcoYuKVTk6WX7CYDay14T//aAAwDAQACAAMAAAAQiD//xAAXEQEBAQEAAAAAAAAAAAAAAAABERBR/9oACAEDAQE/EIhe5//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxAxf//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQXGh/9oACAEBAAE/EEAEQsqfCacELaKgjQyLIjOMXXcWEtG+IJn2n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/40e297d644091c9eecbf40fa3fb21e08/8ac56/gordon-ccs-moztour-9.webp 240w,
+/static/40e297d644091c9eecbf40fa3fb21e08/d3be9/gordon-ccs-moztour-9.webp 480w,
+/static/40e297d644091c9eecbf40fa3fb21e08/e88ff/gordon-ccs-moztour-9.webp 600w&quot;
+              sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/40e297d644091c9eecbf40fa3fb21e08/09b79/gordon-ccs-moztour-9.jpg 240w,
+/static/40e297d644091c9eecbf40fa3fb21e08/7cc5e/gordon-ccs-moztour-9.jpg 480w,
+/static/40e297d644091c9eecbf40fa3fb21e08/b4294/gordon-ccs-moztour-9.jpg 600w&quot;
+            sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/40e297d644091c9eecbf40fa3fb21e08/b4294/gordon-ccs-moztour-9.jpg&quot;
+            alt=&quot;gordon ccs moztour 9&quot;
+            title=&quot;gordon ccs moztour 9&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;em&gt;The Great Adviser App, that will give awesome advise.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can view more photos &lt;a href=&quot;https://www.flickr.com/photos/mozph/sets/72157645575436899/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item></channel></rss>
